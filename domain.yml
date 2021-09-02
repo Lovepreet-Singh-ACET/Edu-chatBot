@@ -1,0 +1,54 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - faq-edu
+  - faq-profile
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_faq-edu/about-platform:
+  - text: "Edu-collab is a Peer to Peer Learning Platform to provide a flexible and safe learning platform through open dialogues and enquiry. Nurturing and Empowering young minds through technology and innovation"
+
+  utter_faq-edu/qualification:
+  - text: "Well, there is no qualification to use edu-collab"
+
+  utter_faq-edu/age:
+  - text: "No, there is no age limit to use edu-collab"
+
+  utter_faq-profile/update-role:
+  - text: "No, you cannot change the role of your profile"
+
+  utter_faq-profile/update-profile:
+  - text: "There is an icon on top right, it has the drop down option to change profile"
+
+  utter_faq-profile/update-email:
+  - text: "please contact support helpline given on the official webpage of Sabudh"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

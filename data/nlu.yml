@@ -1,0 +1,165 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: faq-edu/about-platform
+  examples: |
+    - what is edu-collab?
+    - please tell me something about edu collab.
+    - can you provide me info about edu collab?
+    - What exactly is the purpose of edu collab?
+    - Could you tell me about edu collab?
+    - What is the purpose of edu collab?
+    - i want to know about edu collab?
+    - i am new to edu collab and want to know about it
+    - i would like to know about edu collab
+    - give me some information about edu collab
+
+- intent: faq-edu/qualification
+  examples: |
+    - what should be my educational qualification to use edu-collab?
+    - How much qualification is required for using edu collab?
+    - What is the eligibility criteria for using edu collab?
+    - is there any qualification needed for edu collab?
+    - make me clear with qualifications requirements for edu collab
+    - can i know qualification level in order to use edu collab
+    - please let me know how much qualification is required for using edu collab?
+    - how much qualification is required to become eligible for edu collab?
+    - What type of qualification needed to access edu collab platform
+    - i have not done graduation yet and i am worried if can use edu collab or not?
+    - i want to know qualification level required to become edu collab member.
+
+- intent: faq-edu/age
+  examples: |
+    - is there any age limit to use edu-collab?
+    - What are the age limitations required for using edu collab
+    - i am an adult, so can i access edu collab?
+    - how much age is required for using edu collab?
+    - What should be my age to use edu collab?
+    - could u tell me that what should be my age group so as to use this platform
+    - I justed opened this webpage and want to know what age group should I belong to in order to use it
+
+- intent: faq-profile/update-role
+  examples: |
+    - is it possible to update the role in my user profile
+    - how can i update my role in my user profile
+    - I wanted to know is it possible for me to change the role assigned to me by default
+    - I have a default role assigned to me in my user profile can i change it
+    - is there any way to change the role that's assigned by default to me
+
+- intent: faq-profile/update-profile
+  examples: |
+    - how can i update my user profile
+    - is it possible for me to change the user profile
+    - what steps can be taken to change the user profile
+    - what should be done in order to update my profile
+    - Could u tell me what steps can be taken to change the user profile
+
+- intent: faq-profile/update-email
+  examples: |
+    - can i change my email address
+    - i wanted to change my email address can i do that
+    - is there a way to change the email address under my user profile
+    - am i allowed to change the email address
+    - what steps can be taken in order to change the email address
+    - do i have the authority of changing my email address
+
+# - intent: faq-profile/update-pass
+#   examples: |
+# - intent: faq-profile/update-proficiency
+#   examples: |
+# - intent: faq-profile/zoom
+#   examples: |
+# - intent: faq-profile/calender
+#   examples: |
+# - intent: faq-profile/username
+#   examples: |
