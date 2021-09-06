@@ -10,44 +10,56 @@ intents:
   - bot_challenge
   - faq-edu
   - faq-profile
+  - faq-login
 
 responses:
   utter_greet:
   - text: "Hey! How are you?"
-
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
-
   utter_did_that_help:
   - text: "Did that help you?"
-
   utter_happy:
   - text: "Great, carry on!"
-
   utter_goodbye:
   - text: "Bye"
-
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
-
   utter_faq-edu/about-platform:
   - text: "Edu-collab is a Peer to Peer Learning Platform to provide a flexible and safe learning platform through open dialogues and enquiry. Nurturing and Empowering young minds through technology and innovation"
-
   utter_faq-edu/qualification:
   - text: "Well, there is no qualification to use edu-collab"
-
   utter_faq-edu/age:
   - text: "No, there is no age limit to use edu-collab"
-
+  utter_faq-edu/supported-devices:
+  - text: "edu-collab is supported for desktop devices as well as mobile devices"
+  utter_faq-edu/credentials-expire:
+  - text: "never"
+  utter_faq-edu/my-content-section:
+  - text: "all the questions answered by you will appear under my content tab"
   utter_faq-profile/update-role:
   - text: "No, you cannot change the role of your profile"
-
   utter_faq-profile/update-profile:
   - text: "There is an icon on top right, it has the drop down option to change profile"
-
   utter_faq-profile/update-email:
   - text: "please contact support helpline given on the official webpage of Sabudh"
+  utter_faq-profile/update-pass:
+  - text: "Yes, simply go to User profile > Settings. Then, change your password."
+  utter_faq-profile/update-proficiency:
+  - text: "Yes, you can change the expertise level to lowest to any other category on my profile"
+  utter_faq-profile/update-username:
+  - text: "yes, go to User Profile and there you will find the edit option for username"
+  utter_faq-profile/status-mean:
+  - text: "so it means if you are on educolab you have to select read if you are away you will select "
+  utter_faq-profile/status-change:
+  - text: "By clicking on what you want to show on your profile from read, online, and away options"
+  utter_faq-login/credentials:
+  - text: "Sabudh foundation provides the credentials."
+  utter_faq-login/create:
+  - text: "No, you can't create account on our own."
+  utter_faq-login/log-out:
+  - text: "on top right click on the profile icon and in the drop down bar select logout"
 
 session_config:
   session_expiration_time: 60

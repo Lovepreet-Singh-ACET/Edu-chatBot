@@ -29,6 +29,10 @@ pipeline:
   - name: ResponseSelector
     epochs: 100
     retrieval_intent: faq-profile
+
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-login
     
   - name: FallbackClassifier
     threshold: 0.3

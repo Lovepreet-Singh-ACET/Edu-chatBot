@@ -91,19 +91,28 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
+# EDU COLLAB
 - intent: faq-edu/about-platform
   examples: |
     - what is edu-collab?
-    - please tell me something about edu collab.
-    - can you provide me info about edu collab?
-    - What exactly is the purpose of edu collab?
+    - please tell me something about the edu collab.
+    - can you provide me some info about edu collab?
+    - What exactly is edu collab platform used for?
     - Could you tell me about edu collab?
     - What is the purpose of edu collab?
-    - i want to know about edu collab?
+    - I want to know more about edu collab?
     - i am new to edu collab and want to know about it
-    - i would like to know about edu collab
+    - I would like to know about edu collab
     - give me some information about edu collab
+    - what basically is the edu collab platform?
+    - for what purpose is edu collab used?
+    - i don't know anything about edu collab could tell me something about it
+    - I'd like to know a little bit about edu collab could you please tell
+    - i am not familiar with edu collab, please tell me something regarding it
+    - i am curious to know about edu collab
+    - can i know about edu collab platform?
 
+# have to check if this intent is useful or not
 - intent: faq-edu/qualification
   examples: |
     - what should be my educational qualification to use edu-collab?
@@ -120,14 +129,71 @@ nlu:
 
 - intent: faq-edu/age
   examples: |
-    - is there any age limit to use edu-collab?
-    - What are the age limitations required for using edu collab
-    - i am an adult, so can i access edu collab?
+    - is there any age limitation to use edu-collab?
+    - What are the age required for using edu collab
+    - i am adult, so can i access edu collab?
     - how much age is required for using edu collab?
     - What should be my age to use edu collab?
-    - could u tell me that what should be my age group so as to use this platform
-    - I justed opened this webpage and want to know what age group should I belong to in order to use it
+    - How old must be a person in order to access edu collab?
+    - What is the minimum age requirement for edu collab access?
+    - how old I must be to start using edu collab?
+    - Does edu-collab have an age restriction?
+    - Tell me the legal age required to join edu collab.
+    - please inform me about age limitations for edu collab?
+    - does it require a specific age to use edu collab.
+    - can i know the age requirement for using edu collab
+    - can i join edu collab if I am below adult age
+    - could u tell me that what should be my age group to use this platform
+    - I just opened this webpage and want to know what age group should I belong to use it
 
+- intent: faq-edu/supported-devices
+  examples: |
+    - is there any mobile application for edu-collab?
+    - On what platforms, I can access edu collab?
+    - List down all the platforms where I can use edu collab
+    - Can i use edu collab on android/ios application?
+    - is there any app for edu collab on google play store?
+    - is edu collab accessible only through a web application?
+    - is edu collab supported on all platforms i.e android/ios/desktop?
+    - Does edu-collab have any mobile applications?
+    - please tell me about all possible platforms to access edu collab
+    - What type of device support does edu collab provide?
+
+- intent: faq-edu/credentials-expire
+  examples: |
+    - when do my login credentials expire once I leave sabudh?
+    - For how much time my edu collab credentials are kept?
+    - Would my edu collab account be removed after i leave the institute?
+    - Will my edu collab credentials expire after the internship is over?
+    - Can i use edu collab for lifetime?
+    - is my edu collab login account permanent or not?
+    - i want to know that for how much time, I can access edu collab?
+    - When will my edu collab account expire?
+    - What if i leave sabudh will i be restricted from using my edu collab access?
+    - Edu collab login credentials are permanent or not?
+    - I am not sure if my edu collab account is permanent or not?
+    - Let me know the expiration term of edu collab credentials
+    - Will I be restricted from using edu collab, once my internship is over?
+    - What is the time period for which edu collab is accessible?
+    - For how much time we can use edu collab?
+    - Will my edu collab account be removed after six months?
+
+- intent: faq-edu/my-content-section
+  examples: |
+    - how to use my content section on this platform?
+    - how can i use the my content tab shown on this web app
+    - i am not able to get how can i use my content section
+    - i am new to edu collab can you tell me how can i use this platform
+    - would you mind telling me how can i use this platform
+    - i have been looking on to my content page on edu collab but not able to use it can you tell me how i can operate it
+    - their is no instruction regarding how can i use my content page on edu collab please guide me how to use it
+    - could you please guide me on how to use my content page on edu collab
+    - i have been trying to see how can i use the my content section if you could help me i would really appriciate it
+    - I have been using edu collab for some days now but not able to understand how to use it could you tell me its use
+    - please explain me how can i use this my content section on this portal
+    - i can't figure out how to use this my content section could you please tell me
+
+# PROFILE
 - intent: faq-profile/update-role
   examples: |
     - is it possible to update the role in my user profile
@@ -135,6 +201,11 @@ nlu:
     - I wanted to know is it possible for me to change the role assigned to me by default
     - I have a default role assigned to me in my user profile can i change it
     - is there any way to change the role that's assigned by default to me
+    - there is a default role assigned to me in my profile can i change it
+    - can i change the role in my profile which is assigned by default
+    - please tell me the process to change my role in user profile
+    - what steps can be taken in order to change the user role in my profile
+    - i want to change my role in user profile how to do so
 
 - intent: faq-profile/update-profile
   examples: |
@@ -143,6 +214,9 @@ nlu:
     - what steps can be taken to change the user profile
     - what should be done in order to update my profile
     - Could u tell me what steps can be taken to change the user profile
+    - please tell me how to update user profile
+    - i want to update my user profile how to do so
+    - could you please explain me how can i change the user profile
 
 - intent: faq-profile/update-email
   examples: |
@@ -152,14 +226,91 @@ nlu:
     - am i allowed to change the email address
     - what steps can be taken in order to change the email address
     - do i have the authority of changing my email address
+    - is it possible for me change the email address
+    - please tell me can i change my email address
+    - hey could you please tell me how can i update my email address
+    - are there any ways available to update email
 
-# - intent: faq-profile/update-pass
-#   examples: |
-# - intent: faq-profile/update-proficiency
-#   examples: |
-# - intent: faq-profile/zoom
-#   examples: |
-# - intent: faq-profile/calender
-#   examples: |
-# - intent: faq-profile/username
-#   examples: |
+- intent: faq-profile/update-pass
+  examples: |
+    - is it possible to change password provided to me by default
+    - how steps can i take to change the password
+    - i was looking for a way to change password please tell me
+    - i have been looking for some way to change password please show me
+    - what are the steps that can be taken to change my password of edu collab
+    - on edu collab how to change my password
+    - am i allowed to change the password on edu collab
+    - please guide me in changing the password
+    - i want to change my password please tell me the steps needed to do so
+    - is it possible for me to change the password
+
+- intent: faq-profile/update-proficiency
+  examples: |
+    - on my profile can i change my proficiency from beginner to competent
+    - is there any way to change the default proficiency on my profile
+    - how can i change the proficiency level in my user profile
+    - i just noticied that there is some proficiency level assigned on my profile by default can i change it
+    - please tell me what can i do to change the proficiency level on my profile
+    - i want to change my default proficiency on user profile can i do it
+    - please tell me how to update the proficiency level
+
+- intent: faq-profile/update-username
+  examples: |
+    - can i change my username
+    - can i update my username
+    - is it possible for me to update my user name
+    - please tell me how to update the username
+    - i want to chanage my username please tell me  how can i do so
+    - is changing the username possible
+    - am i allowed to update my username
+    - how can i update my username
+    - please explain me is it possible to change my username
+    - is there any way available to change my username
+
+- intent: faq-profile/status-mean
+  examples: |
+    - please tell me what does the read, away, and online status mean
+    - can you explain what does different user statuses mean?
+    - tell me the meaning of different user status being shown here
+    - what does the read and online status mean
+    - i was wondering about the meanings of different user status could you please tell
+    - please tell me what meaning do the differnt user statuses mean
+
+- intent: faq-profile/status-change
+  examples: |
+    - can I change my user status from read to away?
+    - how to cange my status from online to read
+    - i want to change my online status to away how can i do so
+    - is it possible to change the online status to read or away
+    - please tell me can i change my status from away to online
+
+- intent: faq-login/credentials
+  examples: |
+    - from where can I get login credentials?
+    - how to get to login credentials for edu collab
+    - whom to approch in order to get the credentials for educollab
+    - i want to use edu collab from where can i get user credentials
+    - please tell me how to get the login credentials for edu collab
+    - how can i get login credentials for edu collab
+    - can you tell me from where can i get login credentials for educollab
+    - could you please tell me how can i get the login credentials
+
+- intent: faq-login/create
+  examples: |
+    - can we create user accounts on our own?
+    - am i allowd to create account on edu collab
+    - does edu collab allow everyone to create user account
+    - is edu collab open for all to create user accounts and use it
+    - please tell me can i create account on edu collab myself
+    - is it possible for a random person to create user account on edu collab
+    - are all people who visit edu collab allowed to create their own account
+
+- intent: faq-login/log-out
+  examples: |
+    - how do I log out from edu-collab?
+    - please tell me where is the log out button on this platform
+    - i want to log out but can't find the log out button please help me
+    - where can i find the log out button on this website
+    - i am not able to see the log out button please show me
+    - from where can i log out please tell me
+    - is there any log out button available i am not able to find it

@@ -17,9 +17,14 @@ rules:
   - intent: faq-edu
   - action: utter_faq-edu
 
-- rule: ans to Faq's related to educollab
+- rule: ans to Faq's related to user profile
   steps:
   - intent: faq-profile
   - action: utter_faq-profile
+
+- rule: ans to Faq's related to login/logout
+  steps:
+  - intent: faq-login
+  - action: utter_faq-login
 
 
