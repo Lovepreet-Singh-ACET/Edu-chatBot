@@ -1,0 +1,44 @@
+<html>
+  <body>
+    <script>!(function () {
+      let e = document.createElement("script"),
+        t = document.head || document.getElementsByTagName("head")[0];
+      (e.src =
+        "https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.js"),
+        // Replace 1.x.x with the version that you want
+        (e.async = !0),
+        (e.onload = () => {
+          window.WebChat.default(
+            {
+              initPayload: '/greet',
+              customData: {language: "en"},
+              socketUrl: "http://localhost:5005",
+              title :'Edu BOT',
+              subtitle : "Say hi to edu bot ",
+              docViewer : true,
+              socketPath : "/socket.io/",
+              params: {"storage":"session"}
+              // add other props here
+            },
+            null
+          );
+        }),
+        t.insertBefore(e, t.firstChild);
+    })();
+    </script>
+    <!-- <div class="chat-container"></div>
+
+    <script src="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.js"/></script>
+    <script type="text/javascript">
+      var chatroom = new window.Chatroom({
+        host: "http://localhost:5005",
+        title: "Chat with Bot",
+        container: document.querySelector(".chat-container"),
+        welcomeMessage: "Hi, I am Edu-Chatbot. How may I help you?",
+        speechRecognition: "en-US",
+        voiceLang: "en-US"
+      });
+      chatroom.openChat();
+    </script> -->
+  </body>
+</html>
