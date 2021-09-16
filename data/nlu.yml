@@ -206,6 +206,16 @@ nlu:
     - please tell me the process to change my role in user profile
     - what steps can be taken in order to change the user role in my profile
     - i want to change my role in user profile how to do so
+    - can I update the role in my user profile?
+    - what can I do to update role in my user profile?
+    - ways to update role in my user profile on this portal
+    - tell me the method to update role in my user profile
+    - steps involved to update role in my user profile on educollab
+    - Is it possible to update role in my user profile?
+    - how to update the my role on this portal?
+    - Is there any way to update my role on educollab under my profile?
+    - who can update the role in user profile
+    - Can students update their role in user profile on educollab
 
 - intent: faq-profile/update-profile
   examples: |
@@ -217,6 +227,15 @@ nlu:
     - please tell me how to update user profile
     - i want to update my user profile how to do so
     - could you please explain me how can i change the user profile
+    - how to update the user profile on edu collab?
+    - what can I do to update my user profile?
+    - what ways are available for updating my user profile
+    - which method can be used to update  my user profile
+    - steps involve in updating user profile of mine
+    - Is it even possible to update my user profile?
+    - how to update my user profile?
+    - Is there any way to update user profile on edu collab?
+    - Can students update their user profile
 
 - intent: faq-profile/update-email
   examples: |
@@ -230,6 +249,15 @@ nlu:
     - please tell me can i change my email address
     - hey could you please tell me how can i update my email address
     - are there any ways available to update email
+    - whom to contact if I want to update my email address
+    - Am I even eligible to update my email address by my own
+    - Is it possible to update my email address in user profile
+    - How can I update my email address
+    - Methods to update email address in user profile
+    - what procedure to follow for updating email address
+    - Ways by which I can update my email address
+    - What can I do to update my email address
+    - Can students update their email in user profile
 
 - intent: faq-profile/update-pass
   examples: |
@@ -314,3 +342,252 @@ nlu:
     - i am not able to see the log out button please show me
     - from where can i log out please tell me
     - is there any log out button available i am not able to find it
+
+# Mosaic
+- intent: faq-mosaic/mosaic-proj-knowledge
+  examples: |
+    - to join a project do I need to have a domain background in it
+    - what prior knowledge do I need for joining a project
+    - What prerequisites I must have before I join a project?
+    - Is it necessary for me to have a domain background in order to join a project?
+    - What should I know before I start with a project?
+    - Does every project require me to have prior knowledge of the topic?
+    - Is it necessary for me to have a prior understanding of the topic for every project?
+    - What do I need to know before I begin a project?
+    - Can I start working on a project without any prior knowledge
+    - Is it possible for me to begin working on a project with no prior experience?
+    - Can I begin with the project even though I have no previous experience?
+    - Is it mandatory to learn the basics before delving into a project
+    - What should I know before starting a project?
+    - Is it necessary to understand the fundamentals before starting a project?
+
+- intent: faq-mosaic/mosaic-proj-details
+  examples: |
+    - how do I see details about a project on mosaic
+    - Where can I find project details on edu collab
+    - On educollab, where can I locate project details?
+    - How can I get more information about a project on mosaic?
+    - Does project detail provide a complete understanding of the project
+    - Does the project detail provide you a complete picture of the project?
+    - where do I search about project details
+    - Where do I look for project information on mosaic?
+    - Is there a description for each project on mosaic
+    - Does each mosaic project include a description?
+    - Where can I get project details from?
+    - From where may I obtain project details?
+
+- intent: faq-mosaic/mosaic-proj-start
+  examples: |
+    - can we start new project or do we need to select from the given in mosiac
+    - Can I work on a project other than the ones listed on mosaic
+    - Is it possible for me to work on a project other than the ones featured on mosaic?
+    - Can I undertake a project which is not listed in mosaic
+    - do we have to start project from the list given under mosaic
+    - does it require to select project from the list given in mosaic only
+    - will i get the opportunity to start with a new project or i have to choose the ones listed on mosaic
+    - are the projects listed in mosiac the only choice to select project from
+    - is starting a new project possible which is not on mosiac
+    - i want to start a new project which is not on mosiac list can i do so
+    - i am intersted in starting a new project can i do so
+    - please tell me is it possible to start a new project which is not on mosiac list
+    - am i allowed to start a new project that is not in mosiac list
+
+- intent: faq-mosaic/mosaic-proj-add-team
+  examples: |
+    - how can I add my team details for a project on mosaic
+    - How do I include information on the members of my project team?
+    - how can i add inf about project team members
+    - where do i add project team member details
+    - Where do I put the names of the project team members?
+    - I'm not sure where I may enter the names of the project team members.
+    - is there any option to add project team members?!
+    - Is there a way to add members to the project team?!
+    - Is it possible to add people to the project team?!
+    - Is it feasible to increase the project team size?!
+    - I'm not sure where I should put the project team members' names.
+
+- intent: faq-mosaic/mosaic-proj-mentors
+  examples: |
+    - how can I reach out to the project mentors
+    - What is the best way for me to contact the project mentors?
+    - how do i know who are my mentors for project
+    - How do I find out who my project mentors are?
+    - i want to contact my project mentors. How shall i do that?
+    - I'd like to make touch with my project mentors. I'm not sure how I'm going to accomplish it.
+    - How can I get in touch with my project mentors?
+    - What is the best way for me to contact my project mentors?
+    - How should I get in touch with my project mentors?
+    - Who are my project mentors
+    - How can I know about my project mentors
+    - How can I find out who my project mentors are?
+    - By what means can I contact my project mentors
+    - How do I communicate with mentors of project
+    - how many mentors are there for my project
+    - How many mentors does my project have?
+    - give me some ingormation about project mentors
+    - Please provide me with some information on project mentors.
+
+- intent: faq-mosaic/mosaic-info
+  examples: |
+    - what is mosaic?
+    - what is the purpose of mosai section?
+    - What exactly is mosaic?
+    - What does the mosai section serve?
+    - what information does mosaic contain
+    - What information is contained in mosaic?
+    - what can i know from mosaic section on educollab
+    - What can I learn from educollab's mosaic section?
+    - how do I use mosaic in educollab
+    - what is mosaic all about?
+    - what information can I find under mosaic section
+    - What kind of information can I get from the mosaic section?
+    - What does mosaic section contain
+    - can you tell me something about mosaic
+    - Could you explain me a little bit about mosaic?
+    - give me some information regarding educollab mosaic
+    - Please provide me with some details about the educollab mosaic
+    - tell me about mosaic section 
+
+- intent: faq-mosaic/mosaic-join-live-proj
+  examples: |
+    - can I join an ongoing project
+    - Is it possible for me to participate in an ongoing project?
+    - Can i join project which is already being carried out
+    - Can I participate in a project that is already underway?
+    - is it possible to join a project which is already going on
+    - Is joining a project which has already been started allowed?
+    - Is it permissible to join a project that has already begun?
+    - Is it possible for me to join a project in the middle?
+    - i wish to join a already begun project. Is it allowed?
+    - How do I join an ongoing project
+    - How do I become a part of an ongoing project?
+
+- intent: faq-mosaic/mosaic-proj-count
+  examples: |
+    - how many total projects are available on mosiac
+    - What is the total number of projects offered on Mosiac?
+    - give me the total count of projects available
+    - Tell me how many projects are available in total.
+    - What is the exact count of projects available on mosaic
+    - How many projects are currently available on mosaic?
+    - how many projects are there in eaach category in mosaic
+    - give me information regarding number of projects available on mosaic
+    - Inform me about the quantity of projects available on mosaic.
+    - I want to know total projects available on mosaic
+    - can you tell me how many total projects are there 
+
+# question
+- intent: faq-question/ask-ques
+  examples: |
+    - how can I ask a question?
+    - What is the best way for me to ask a question?
+    - I'm not sure how I can to ask a question.
+    - How am I intended to ask a question?
+    - best way to ask a question
+    - tell me how to ask questions here?
+    - what is method to ask a question?
+    - tell the procedure to ask a question here?
+    - i dont  know how to ask questions here?
+    - how to let you know my queries?
+    - tell the process that a question should be asked here?
+    - guide the approach to ask a question in this site?
+    - help me figure out how to ask a question on this site?
+    - suggest a strategy for asking a question on this website?
+    - give me advise on how to ask a query on this site?
+    - Can you tell me how to post a question on this site?
+
+- intent: faq-question/coins-use
+  examples: |
+    - how can I utilize my coins with the questions?
+    - What are the best ways for me to use my coins in the questions?
+    - How can I use my coins to answer the questions?
+    - In the questions, what are the greatest methods for me to use my coins?
+    - In questions, what are the best ways for me to spend my coins?
+    - tell me perfect way to use my coins, according to questions
+    - i dont know how to use my coins i the questions
+    - can you suggest me how can i best utilize my coins in th questions
+    - that is best use of coins with the questions?
+    - I'm not sure how to spend my coins, according to the FAQs
+    - I'm not understanding how to spend my coins, according to the FAQs
+    - I'm not sure how to use my coins
+    - what to do with the coins in the questions
+    - i am not familier with the concept of coins here
+    - what is the role of coins here?
+    - i have no idea what to do with my coins in edu collab
+
+- intent: faq-question/ans-question
+  examples: |
+    - can I answer a question asked by someone else?
+    - how to answer a question that is asked by someone else?
+    - is it possible to answer the questions of other people?
+    - do we have permission to answer to someone's questions?
+    - Can I respond to a question posed by another person?
+    - can i give my views on someone's question?
+    - may i answer someone's questions on edu collab?
+    - can i use edu collab to answer someone's question?
+    - do edu collab provide facility to answer to que of other people?
+    - is there any restriction to answer someone's questions?
+    - am i restricted to ask the questions asked by other people on edu collab?
+    - Is there a limit to how many questions you can answer on edu collab?
+
+- intent: faq-question/ans-video
+  examples: |
+    - is it mandatory to use the edu-collab app to create solution videos?
+    - Is it necessary to make solution videos using the edu-collab app?
+    - is there any compulsion to create solution videos on edu collab?
+    - i dont know whether i should use edu collab to create solution vidoes or not
+    - What if I don't use edu collab to make solution videos?
+    - Is it required that solution videos be created using the edu-collab app?
+    - can i skip process of creating solution videos on edu collab?
+    - i dont like to create solution vidoes using edu collab, can i skip it?
+    - creating solution videos on edu collab is not a mandatory part i think?
+    - i am sure its not compulsory to create solution videos on edu collab
+    - i think creating sol videos on edu collab is not required
+
+# courses
+- intent: faq-course/enroll-courses
+  examples: |
+    - how can I add courses under my courses section?
+    - How to put courses under my courses section?
+    - is there any way to add courses in my courses section ?
+    - what steps we need to add courses in my courses section ?
+    - can you tell me the procedure to add courses in my courses section ?
+    - is it possible to add course in my courses section.
+    - ways we need to follow to add courses under my courses section
+    - i would really appreciate if you tell me how to add courses under my courses section
+    - please let me know how to add course in my courses section
+    - if you tell me how to add course in my courses section, it would really helpful
+    - could you please tell me about how to add courses in my courses section
+    - how do i add courses in my courses section
+    - How do we go about adding courses to my courses section?
+    - What procedures do we need to take to add courses to my courses section ?
+    - could you tell me what action should i take to add course in my courses section ?
+    - can you tell me how to add courses in my courses section
+    - in my courses section, is it possible to add courses.
+    - please teach me how to put courses under my courses section?
+    - could you explain me how to put courses under my courses section?
+    - it would be really useful if you tell me how to put courses under my courses section
+
+- intent: faq-course/enroll-limit
+  examples: |
+    - what's the limit to subscribe under the other courses section?
+    - is there any limit to subscribe courses under other courses section
+    - can you tell me what's the limit to subscribe courses
+    - it would really helpful if you tell me the limit to subscribe courses
+    - is there really a limit to subscribe courses?
+    - is it neccessary to subscribe courses in limit?
+    - if you can tell me the limit to subscribe corse, it would really helpful
+    - any limit to subscribe courses
+    - am i really subscribe other courses in limit
+    - i would appreciate if you tell me how much other courses i can subscribe
+    - what's the limit to subscribe other courses 
+
+- intent: faq-course/course-categories
+  examples: |
+    - what different categories of courses are there?
+    - how many categories are there in courses
+    - in how many ways we categorize are course
+    - it would really helpful if you tell me how many categories for courses are there
+    - please tell me the how many categories for courses are there?
+    - How many distinct types of courses are there?
+    - pls tell me how many categories are available for courses

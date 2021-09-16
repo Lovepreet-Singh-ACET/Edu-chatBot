@@ -33,6 +33,18 @@ pipeline:
   - name: ResponseSelector
     epochs: 100
     retrieval_intent: faq-login
+
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-mosaic
+
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-question
+
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-course
     
   - name: FallbackClassifier
     threshold: 0.3

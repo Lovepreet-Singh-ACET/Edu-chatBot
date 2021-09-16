@@ -11,6 +11,9 @@ intents:
   - faq-edu
   - faq-profile
   - faq-login
+  - faq-course
+  - faq-question
+  - faq-mosaic
 
 responses:
   utter_greet:
@@ -60,6 +63,36 @@ responses:
   - text: "No, you can't create account on our own."
   utter_faq-login/log-out:
   - text: "on top right click on the profile icon and in the drop down bar select logout"
+  utter_faq-mosaic/mosaic-proj-knowledge:
+  - text: "Yes basic knowledge"
+  utter_faq-mosaic/mosaic-proj-details:
+  - text: "by clicking on the eye button that bappears on each project"
+  utter_faq-mosaic/mosaic-proj-start:
+  - text: "no students can't created their own projects however they can let thier mentor know about their ideas"
+  utter_faq-mosaic/mosaic-proj-add-team:
+  - text: "when you open a project, there is a add team button, you can your team details there"
+  utter_faq-mosaic/mosaic-proj-mentors:
+  - text: "a new chat functinality is up on Educollab, students can reach the mentors from there"
+  utter_faq-mosaic/mosaic-info:
+  - text: "Mosiac section is the collection if projects with different specialization domains"
+  utter_faq-mosaic/mosaic-join-live-proj:
+  - text: "yes, sure you can"
+  utter_faq-mosaic/mosaic-proj-count:
+  - text: "51 projects"
+  utter_faq-question/ask-ques:
+  - text: "On top right, there is question tab, click on it and click on ask question"
+  utter_faq-question/coins-use:
+  - text: "Coins are assigned to gamify the question & answer feature (as in i will give you 10 coins if you answer my question correctly)"
+  utter_faq-question/ans-question:
+  - text: "yes"
+  utter_faq-question/ans-video:
+  - text: "no you can use other app and upload the recording of it as a answer'"
+  utter_faq-course/enroll-courses:
+  - text: "To add any course under my courses section all you need to do is subscribe to the course by clicking on the subscribe button that you would find after clicking on the view course button."
+  utter_faq-course/enroll-limit:
+  - text: "There is no such limit to the number of courses that you can subscribe to as long as the course is visible to you in the other courses section."
+  utter_faq-course/course-categories:
+  - text: "There are predefined categories for now total are 45 in which there are major categories and some are children of the major."
 
 session_config:
   session_expiration_time: 60
