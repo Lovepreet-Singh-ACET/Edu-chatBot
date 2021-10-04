@@ -130,7 +130,7 @@ nlu:
 - intent: faq-edu/age
   examples: |
     - is there any age limitation to use edu-collab?
-    - What are the age required for using edu collab
+    - What is the age required for using edu collab
     - i am adult, so can i access edu collab?
     - how much age is required for using edu collab?
     - What should be my age to use edu collab?
