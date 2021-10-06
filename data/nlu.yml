@@ -111,6 +111,19 @@ nlu:
     - i am not familiar with edu collab, please tell me something regarding it
     - i am curious to know about edu collab
     - can i know about edu collab platform?
+    - define edu collab
+    - tell me something about edu-collab
+    - provide me with some information regarding edu collab
+    - what is the use of edu collab platform
+    - please tell me about edu collab
+    - tell me the purpose of edu collab
+    - i wanna know about edu collab
+    - for me edu collab is new could you please tell me someting about it
+    - i am interested to know more about edu collab
+    - help me with some information regarding edu collab
+    - basically what is edu collab platform
+    - tell me the use of educollab
+    - i am not aware about educollab could you please tell me something about it
 
 # have to check if this intent is useful or not
 - intent: faq-edu/qualification
@@ -126,6 +139,17 @@ nlu:
     - What type of qualification needed to access edu collab platform
     - i have not done graduation yet and i am worried if can use edu collab or not?
     - i want to know qualification level required to become edu collab member.
+    - tell me about the qualification requirements necessary to use this platform
+    - how much qualified should i be to become part of educollab
+    - what eligibility criteria is there to use this platform
+    - do we need to have any sort of qualification to use educollab
+    - do let me know if there is any qualification that i require
+    - tell me the level of qualification required to use educollab
+    - could you explain what qualification requirement do i need to have to use this platform
+    - In order to use edu-collab what qualification requirement do i need to have
+    - what shall be mine qualification so that i would be allowed to use edu-collab
+    - is graduation in any sort of degree required to use edu collab
+    - what shall be my qualification to be part of edu-collab platform
 
 - intent: faq-edu/age
   examples: |
@@ -145,6 +169,20 @@ nlu:
     - can i join edu collab if I am below adult age
     - could u tell me that what should be my age group to use this platform
     - I just opened this webpage and want to know what age group should I belong to use it
+    - is there any restriction for age limit
+    - tell me the minimum age requirement for starting to use edu collab
+    - being an adult can i use this platform
+    - what minimum age i must have so that i would be allowed to use edu collab
+    - tell me the minimum age
+    - How old does a person have to be to use edu collab?
+    - What is the minimum age to join edu collab?
+    - How old do I have to be to use edu collab?
+    - Is there an age limit for edu-collab?
+    - Please tell me the legal age limit for joining edu collab.
+    - Could you please let me know whether there are any age restrictions for the edu collab?
+    - Is there a minimum age requirement to utilise edu collab?
+    - Can you tell me how old you have to be to use edu collab?
+    - Can I join educollab if I am under the age of 18?
 
 - intent: faq-edu/supported-devices
   examples: |
@@ -158,6 +196,26 @@ nlu:
     - Does edu-collab have any mobile applications?
     - please tell me about all possible platforms to access edu collab
     - What type of device support does edu collab provide?
+    - is there any ios app that i can install for using educollab
+    - is educollab app available for ios devices
+    - is there any educollab app for iphone
+    - can i install edu-collab app on iphone
+    - does educollab have any app in apple app store
+    - Does edu-collab have a mobile application?
+    - Is edu collab available on any platforms?
+    - Make a list of all the platforms on which I can utilise edu-collab.
+    - Is it possible to utilise edu collab on an Android/iOS app?
+    - Is there a Google Play app for edu collab?
+    - Is edu collab only available as an online application?
+    - Is edu collab available on all platforms Android, iOS, and Desktop?
+    - Do you have any mobile apps for edu-collab?
+    - Please inform me of all platforms via which I may access edu collab. 
+    - What kind of device support does edu collab provide?
+    - Is there an educollab app for iOS that I can download?
+    - Is there an educollab app for iOS?
+    - Is an educollab app available for the iPhone?
+    - Is there an educollab app for the iPhone? 
+    - Is there an educollab app on the Apple App Store?
 
 - intent: faq-edu/credentials-expire
   examples: |
@@ -177,21 +235,53 @@ nlu:
     - What is the time period for which edu collab is accessible?
     - For how much time we can use edu collab?
     - Will my edu collab account be removed after six months?
+    - How long do my login credentials last once I leave Sabudh?
+    - How long will my edu collab credentials be retained?
+    - When I leave the institute, will my edu collab account be deactivated?
+    - Will my edu collab credentials expire at the end of the internship?
+    - Is it possible to utilise edu collab indefinitely?
+    - Do I have a permanent edu collab login account?
+    - I'd want to know how long I'll be able to use edu collab?
+    - How long does my edu collab account last?
+    - Will I be able to use my edu collab access if I leave Sabudh?
+    - Are the login credentials for edu collab permanent?
+    - How can I know if my edu collab account is permanent?
+    - Please inform me of the edu collab credentials' expiration date.
+    - Will I be able to use edu collab once my internship is finished?
+    - Is edu collab available for a specific amount of time?
 
 - intent: faq-edu/my-content-section
   examples: |
     - how to use my content section on this platform?
     - how can i use the my content tab shown on this web app
     - i am not able to get how can i use my content section
-    - i am new to edu collab can you tell me how can i use this platform
-    - would you mind telling me how can i use this platform
     - i have been looking on to my content page on edu collab but not able to use it can you tell me how i can operate it
     - their is no instruction regarding how can i use my content page on edu collab please guide me how to use it
     - could you please guide me on how to use my content page on edu collab
     - i have been trying to see how can i use the my content section if you could help me i would really appriciate it
-    - I have been using edu collab for some days now but not able to understand how to use it could you tell me its use
     - please explain me how can i use this my content section on this portal
     - i can't figure out how to use this my content section could you please tell me
+    - how to use my content section on this platform?
+    - what is my content section in this platfom?
+    - suggest me how to use my content tab under edu  collab?
+    - what is purpose of my content tab in edu collab website?
+    - i need info about my content section in edu collab platform
+    - where can i get my content in edu collab?
+    - what information does my content contains in this platform?
+    - why is there my content tab under menu
+    - what is the use of my content tab
+    - what's the use of my content section here?
+    - can you tell me about my content section on edu collab?
+    - i am confused with my content section on this platform
+    - i dont know what is my content section here.
+    - I'm not sure what area of this website is for my content
+    - What is the function of the my content tab on the edu collab website?
+    - tell me significance of my content tab of edu collab
+    - role of my content section in edu collab
+    - How do I utilise this platform's content section?
+    - How can I access the My Content option on this online app?
+    - I am unable to obtain How can I make the most of my content section?
+    - I've been trying to access my content page on edu collab but am unable to do so. Could you please explain how to do so?
 
 # PROFILE
 - intent: faq-profile/update-role
@@ -211,11 +301,21 @@ nlu:
     - ways to update role in my user profile on this portal
     - tell me the method to update role in my user profile
     - steps involved to update role in my user profile on educollab
-    - Is it possible to update role in my user profile?
     - how to update the my role on this portal?
     - Is there any way to update my role on educollab under my profile?
     - who can update the role in user profile
     - Can students update their role in user profile on educollab
+    - Is it allowed to change my user profile's role?
+    - How can I update my user profile's role?
+    - I'd want to know if I can modify the default role that has been given to me.
+    - In my user profile, I have a default role given to me can I modify it?
+    - Is there a method to modify the default role that has been assigned to me?
+    - In my profile, there is a default role given to me can I modify it
+    - Is it possible to modify the default role on my profile?
+    - Please explain how to modify my role on my user profile.
+    - What actions should I take to modify my user role in my profile?
+    - I'd like to modify my role on my user profile, but I'm not sure how to accomplish it.
+    - Is it possible to change my role on my user profile?
 
 - intent: faq-profile/update-profile
   examples: |
@@ -230,12 +330,25 @@ nlu:
     - how to update the user profile on edu collab?
     - what can I do to update my user profile?
     - what ways are available for updating my user profile
-    - which method can be used to update  my user profile
+    - which method can be used to update my user profile
     - steps involve in updating user profile of mine
     - Is it even possible to update my user profile?
     - how to update my user profile?
     - Is there any way to update user profile on edu collab?
     - Can students update their user profile
+    - can we update our profile
+    - is it true that we can update our profiles
+    - tell me the procedures to update my profile
+    - How do I make changes to my user profile?
+    - Is it possible to modify my user profile?
+    - How may the user profile be changed?
+    - What steps should I take to update my profile?
+    - Could you please explain me how to update the user profile?
+    - Could you kindly explain me how to change my user profile?
+    - I'd want to edit my user profile, but I'm not sure how to accomplish so.
+    - Could you kindly show me how to modify my user profile?
+    - How do I change my edu collab user profile?
+    - How can I edit my user profile?
 
 - intent: faq-profile/update-email
   examples: |
@@ -258,6 +371,17 @@ nlu:
     - Ways by which I can update my email address
     - What can I do to update my email address
     - Can students update their email in user profile
+    - how can i change my email
+    - is there any method to change my mail address
+    - is edu-collab gives us permission to change mail
+    - what are the procedures to update my mail address
+    - tell me the procedures to change my mail id
+    - can i have power to change my mail id
+    - tell me can i change my mail address
+    -i would appreciate if you tell me how can i change my mail id
+    - plss tell me the way to change my email
+    - whom i reach out to change my mail
+    - i want to change my email id
 
 - intent: faq-profile/update-pass
   examples: |
@@ -271,6 +395,15 @@ nlu:
     - please guide me in changing the password
     - i want to change my password please tell me the steps needed to do so
     - is it possible for me to change the password
+    - how can i change password
+    - is it possible to update password
+    - tell me the way to change my pass
+    - assist me to change my password
+    - please provide me the way to change my password on edu-collab
+    - can i change my default password
+    - can edu-collab gives us permission to change my pass
+    - how can i change my default pass
+    - is there any way to change my pass
 
 - intent: faq-profile/update-proficiency
   examples: |
@@ -281,6 +414,18 @@ nlu:
     - please tell me what can i do to change the proficiency level on my profile
     - i want to change my default proficiency on user profile can i do it
     - please tell me how to update the proficiency level
+    - is it possible to change my proficiency level
+    - i would appreciate if you tell me how can i change my proficiency level
+    - tell me the way to change proficiency level in my profile
+    - can edu-collab gives us permission to change proficiency level in my profile
+    - how to change proficiency level
+    - what are the procedure of changing proficiency level
+    - can you tell me how can i change my proficiency level on edu-collab
+    - Can I change my proficiency level on my profile from beginner to competent?
+    - Is there any way to change the default proficiency on my profile?
+    - How can I change the proficiency level in my user profile?
+    - I just noticed that there is a proficiency level assigned to my profile by default, can I change it?
+    - Please tell me how to change the proficiency level on my profile.
 
 - intent: faq-profile/update-username
   examples: |
@@ -288,12 +433,20 @@ nlu:
     - can i update my username
     - is it possible for me to update my user name
     - please tell me how to update the username
-    - i want to chanage my username please tell me  how can i do so
+    - i want to change my username please tell me how can i do so
     - is changing the username possible
     - am i allowed to update my username
     - how can i update my username
     - please explain me is it possible to change my username
     - is there any way available to change my username
+    - how can i update my username
+    - how can i change my username
+    - i would appreciate if you tell me how can i change username
+    - i want to change my username
+    - is it feasible to change my username
+    - assist me to change username
+    - how to change username
+    - Is There Any Way To Change My Username?
 
 - intent: faq-profile/status-mean
   examples: |
@@ -302,15 +455,45 @@ nlu:
     - tell me the meaning of different user status being shown here
     - what does the read and online status mean
     - i was wondering about the meanings of different user status could you please tell
-    - please tell me what meaning do the differnt user statuses mean
+    - please tell me what meaning do the different user statuses mean
+    - what's the role of status
+    - what's the use of role in our profile
+    - i would appreciate if you tell me the meaning of different status in our profile
+    - what read, away, online means
+    - what these different status means
+    - why edu-collabput these different status in user profile
+    - Could you please clarify what the read, away, and online statuses mean?
+    - Could you kindly explain what the different user statuses mean?
+    - please explain me what the different user statuses mean
+    - what do the read and online statuses mean
+    - I was curious about the meanings of the different user statuses could you please tell
+    - please tell me what the different user statuses mean
+    - What is the purpose of status in our profile?
+    - Could you please explain the significance of different status in our profile?
+    - What does read, away, and online mean?
+    - Why does edu-collab include these distinct status in user profiles?
 
 - intent: faq-profile/status-change
   examples: |
     - can I change my user status from read to away?
-    - how to cange my status from online to read
+    - how to change my status from online to read
     - i want to change my online status to away how can i do so
     - is it possible to change the online status to read or away
     - please tell me can i change my status from away to online
+    - is there any way to change my status from read to away
+    - how can i change my status from online to read
+    - assist me to change my status to read or away
+    - i would appreciate you tell me how can i  change my status to read from away
+    - is it possible to change status
+    - can edu-collab gives us permission to change status
+    - Can you help me change my status from online to read?
+    - I'd love it if you could tell me how I may alter my status to read from away
+    - Is it feasible to change status?
+    - Is it possible to alter my user status from read to away?
+    - How do I change my online status to read?
+    - How do I change my online status to away?
+    - Is it feasible for me to alter the online status to read or away?
+    - Could you kindly inform me whether I may alter my status from away to online?
 
 - intent: faq-login/credentials
   examples: |
@@ -322,16 +505,56 @@ nlu:
     - how can i get login credentials for edu collab
     - can you tell me from where can i get login credentials for educollab
     - could you please tell me how can i get the login credentials
+    - how can i get login credentials
+    - who can give me the login credentials for edu-collab
+    - tell me where i can get edu-collab credentials
+    - tell me the way to get login credentials
+    - Where can I receive username and password?
+    - how to obtain educollab login credentials
+    - whom to contact in order to obtain educollab login credentials
+    - I'd want to utilise edu collab, but I'm not sure where to acquire usernames and passwords.
+    - please tell me how to obtain educollab login credentials
+    - how can I get educollab login credentials
+    - can you tell me where I can get educollab login credentials
+    - Could you tell me how I may obtain the login information?
+    - Where can I obtain login information?
+    - how to obtain login credentials for educollab
+    - who to contact in order to obtain educollab credentials
+    - I'd want to utilise edu collab where can I obtain login credentials?
+    - Please tell me how to obtain the login credentials for edu collab.
+    - How can I get login credentials for edu collab.
+    - Can you tell me where I can get login credentials for educollab.
+    - Could you kindly tell me how I may obtain the login information?
 
 - intent: faq-login/create
   examples: |
     - can we create user accounts on our own?
-    - am i allowd to create account on edu collab
+    - am i allowed to create account on edu collab
     - does edu collab allow everyone to create user account
     - is edu collab open for all to create user accounts and use it
     - please tell me can i create account on edu collab myself
     - is it possible for a random person to create user account on edu collab
     - are all people who visit edu collab allowed to create their own account
+    - is there any way to create our account
+    - is it feasible for me to create our own account
+    - help me to create my own account
+    - tell me the procedure to create a account for myself
+    - can edu-collab help us to create our own account
+    - can anyone create their account on edu-collab
+    - how to create account
+    - can my friends create their own account
+    - Is it possible for us to create user accounts on our own?
+    - Can I make an account on edu collab?
+    - Does edu collab enable anybody to establish a user account?
+    - Is edu collab available to everyone to create a user account and utilise it?
+    - Can I make an account on edu collab on my own?
+    - Is it feasible for a random individual to register an account on edu collab?
+    - Are all visitors to edu collab permitted to create an account?
+    - Is it possible for me to establish our own account
+    - Is there any method for us to create our own account?
+    - guide me through the process of creating my own account
+    - can edu-collab assist us in creating our own account
+    - can anybody establish an account on edu-collab
 
 - intent: faq-login/log-out
   examples: |
@@ -342,6 +565,28 @@ nlu:
     - i am not able to see the log out button please show me
     - from where can i log out please tell me
     - is there any log out button available i am not able to find it
+    - tell me the way to logout from edu-collab 
+    - is there any function on edu-collab for logout
+    - how to log out
+    - i can't find log out button
+    - help me to find he logout button
+    - assisst me to locate the log out button
+    - i would appreciate if you tell me from where can i logout
+    - how can i log out
+    - how can i locate the log out button
+    - What is the procedure for logging out to edu-collab?
+    - Could you kindly inform me where the log out button is on this platform?
+    - I'm trying to log out but can't seem to find it.
+    - Where can I locate the log out button on this website?
+    - I can't seem to find it could you kindly show me where it is?
+    - Could you please tell me where I may log out from?
+    - Is there any way to log out? I can't seem to locate one.
+    - Can you tell me how to log out of edu-collab?
+    - Is there a logout feature on edu-collab?
+    - How can I log out if there isn't a log out button?
+    - Please assist me in locating the logout button.
+    - Help me find the log out button  
+    - I'd appreciate it if you could tell me where I can log out from.
 
 # Mosaic
 - intent: faq-mosaic/mosaic-proj-knowledge
@@ -360,6 +605,22 @@ nlu:
     - Is it mandatory to learn the basics before delving into a project
     - What should I know before starting a project?
     - Is it necessary to understand the fundamentals before starting a project?
+    - Do I need to have a domain background for joining a project?
+    - Do I need any prior experience to participate in a project?
+    - What are the requirements for joining a project?
+    - Is it required for me to have prior experience with domains in order to participate in a project?
+    - What should I know about a project before I begin it?
+    - Is it important for me to have prior understanding of the topic for every project?
+    - Is it considered necessary for me to have prior knowledge of the subject matter for each project?
+    - What should I know before starting a project?
+    - i dont know if I can begin working on a project with no previous knowledge or not?
+    - Will I be able to start working on a project with no prior experience?
+    - Can I start working on the project with my lack of experience?
+    - Is it necessary to master the fundamentals before embarking on a project?
+    - What should I be aware of before to beginning a project?
+    - Is it important to know the basics before beginning a project?
+    - What should I be aware of before beginning a project?
+    - please tell me do i need to have a domain background to join a project
 
 - intent: faq-mosaic/mosaic-proj-details
   examples: |
@@ -375,6 +636,18 @@ nlu:
     - Does each mosaic project include a description?
     - Where can I get project details from?
     - From where may I obtain project details?
+    - tell me how can I get information about a project on mosaic?
+    - tel me where can I get more information about a project on edu collab?
+    - help me to locate project details on edu collab
+    - i want more information about a project on mosaic?
+    - i dont know if project detail provides complete understanding of the project or not?
+    - Does the project detail give a detailed summary of the work?
+    - Where should I look for information about the project?
+    - tell me where should I go for project information?
+    - Does each mosaic project include a description?
+    - Does each mosaic project come with a summary?
+    - Where can I obtain more information about the project?
+    - How can I find out more about the project?
 
 - intent: faq-mosaic/mosaic-proj-start
   examples: |
@@ -391,11 +664,24 @@ nlu:
     - i am intersted in starting a new project can i do so
     - please tell me is it possible to start a new project which is not on mosiac list
     - am i allowed to start a new project that is not in mosiac list
+    - Can we start a fresh project or must we choose from the options in Mosiac?
+    - Is it possible for me to work on a project that isn't featured on mosaic?
+    - Can I work on a project that isn't on mosaic?
+    - Is it possible for me to work on a project that isn't featured in mosaic?
+    - Do we have to start the project from the mosaic list only?
+    - Is it necessary to choose a project just from the mosaic list?
+    - Will I be able to start a new project or will I have to pick from the ones mentioned on mosaic?
+    - Are the projects listed in Mosiac the only ones available for selection?
+    - Is it feasible to start a new project that isn't on Mosiac?
+    - I'd want to start a new project that isn't on the Mosiac list; is this possible?
+    - I'd want to start a new project, is it possible?
+    - Could you kindly inform me if I may start a new project that isn't on the Mosiac list ?
+    - May I begin a new project that is not on the Mosiac list?
 
 - intent: faq-mosaic/mosaic-proj-add-team
   examples: |
     - how can I add my team details for a project on mosaic
-    - How do I include information on the members of my project team?
+    - How do I include information on the members of my project team?
     - how can i add inf about project team members
     - where do i add project team member details
     - Where do I put the names of the project team members?
@@ -404,7 +690,18 @@ nlu:
     - Is there a way to add members to the project team?!
     - Is it possible to add people to the project team?!
     - Is it feasible to increase the project team size?!
-    - I'm not sure where I should put the project team members' names.
+    - I'm not sure where I should put the project team members names.
+    - How do I contribute my team's information to a mosaic project?
+    - How do I provide information about my project team members?
+    - How can I submit details on the team members of project?
+    - Where do I put the names of the project team members?
+    - Where should I write the project team members' names?
+    - Where should I insert the project team members' names?
+    - Is it possible to add people to the project team?
+    - Is it possible to expand the project team?
+    - Can people be added to the project team?!
+    - Do you think it's possible to expand the project team?
+    - I'm not sure where the names of the project team members should go.
 
 - intent: faq-mosaic/mosaic-proj-mentors
   examples: |
@@ -415,7 +712,6 @@ nlu:
     - i want to contact my project mentors. How shall i do that?
     - I'd like to make touch with my project mentors. I'm not sure how I'm going to accomplish it.
     - How can I get in touch with my project mentors?
-    - What is the best way for me to contact my project mentors?
     - How should I get in touch with my project mentors?
     - Who are my project mentors
     - How can I know about my project mentors
@@ -426,6 +722,19 @@ nlu:
     - How many mentors does my project have?
     - give me some ingormation about project mentors
     - Please provide me with some information on project mentors.
+    - How do I contact the project mentors?
+    - How can I connect out to the project advisors in the most effective way?
+    - How can I find out who my project mentors are?
+    - How can I seek the mentors for my project?
+    - I'd want to get in touch with the mentors for my project. What's the best way for me to do this?
+    - I'd want to contact the mentors for my project. I'm not sure how I'll go about doing that.
+    - What is the best way for me to contact the mentors for my project?
+    - Where do I connect with the mentors for my project?
+    - Who are the mentors for my project?
+    - What is the best way for me to find out who my project mentors are?
+    - How can I locate my project mentors?
+    - How can I get in touch with the mentors for my project?
+    - What are my options for communicating with project mentors?
 
 - intent: faq-mosaic/mosaic-info
   examples: |
@@ -446,7 +755,19 @@ nlu:
     - Could you explain me a little bit about mosaic?
     - give me some information regarding educollab mosaic
     - Please provide me with some details about the educollab mosaic
-    - tell me about mosaic section 
+    - tell me about mosaic section
+    - explain about mosaic
+    - What does the mosai section represent?
+    - i dont know what exactly the mosaic is?
+    - what is work of mosaic section here?
+    - What data does mosaic hold?
+    - What data is contained in mosaic?
+    - What can I discover from educollab's mosaic section?
+    - What can I learn from the mosaic part of educollab?
+    - In educollab, how can I utilise mosaic?
+    - tell me all about mosaic section
+    - In the mosaic part, what information can I find?
+    - Can the mosaic part provide me with any useful information?
 
 - intent: faq-mosaic/mosaic-join-live-proj
   examples: |
@@ -461,6 +782,17 @@ nlu:
     - i wish to join a already begun project. Is it allowed?
     - How do I join an ongoing project
     - How do I become a part of an ongoing project?
+    - Is it possible for me to join an ongoing project?
+    - Is it feasible for me to become involved in a current project?
+    - Is it possible for me to join an ongoing project?
+    - Is it possible for me to be a part of an ongoing project?
+    - Is it acceptable to contribute in an ongoing project?
+    - am i allowed to join a project which has already going on?
+    - Is it legal to join a project that has already started?
+    - Is it acceptable for me to join in the middle of a project?
+    - I'd want to participate in a project that has already started. Is it permissible?
+    - How do I get involved in an ongoing project?
+    - How do I become a part of a project that is already in progress?
 
 - intent: faq-mosaic/mosaic-proj-count
   examples: |
@@ -474,7 +806,18 @@ nlu:
     - give me information regarding number of projects available on mosaic
     - Inform me about the quantity of projects available on mosaic.
     - I want to know total projects available on mosaic
-    - can you tell me how many total projects are there 
+    - can you tell me how many total projects are there
+    - What is the overall number of projects on Mosiac?
+    - How many projects are available on Mosiac in total?
+    - Please provide me with the total number of projects available.
+    - Please tell me how many projects there are in total.
+    - How many mosaic projects are there in total?
+    - How many mosaic projects are currently available?
+    - In mosaic, how many projects exist in each category?
+    - tell me about the amount of mosaic projects that are currently accessible.
+    - Let me know how many projects are accessible on mosaic.
+    - I'd want to know the overall number of mosaic projects accessible.
+    - Could you please give me the overall number of projects? 
 
 # question
 - intent: faq-question/ask-ques
@@ -487,7 +830,7 @@ nlu:
     - tell me how to ask questions here?
     - what is method to ask a question?
     - tell the procedure to ask a question here?
-    - i dont  know how to ask questions here?
+    - i dont know how to ask questions here?
     - how to let you know my queries?
     - tell the process that a question should be asked here?
     - guide the approach to ask a question in this site?
@@ -495,6 +838,20 @@ nlu:
     - suggest a strategy for asking a question on this website?
     - give me advise on how to ask a query on this site?
     - Can you tell me how to post a question on this site?
+    - What is the best way to ask a question
+    - And what's the ideal way for me to ask a question?
+    - I don't know how to approach a question.
+    - How do I ask my queries on educollab
+    - How do I submit my educollab questions?
+    - What way can I post my educollab questions?
+    - instruct the procedure to ask a query in this location?
+    - direct the procedure to ask a query in this site?
+    - where can I ask questions on educollab?
+    - where can I post my question?
+    - make a suggestion about how to ask a question on this website?
+    - offer a recommendation for how to ask a question on this website?
+    - Is it possible to post my question on educollab?
+    - Does educollab allow posting queries?
 
 - intent: faq-question/coins-use
   examples: |
@@ -514,6 +871,20 @@ nlu:
     - i am not familier with the concept of coins here
     - what is the role of coins here?
     - i have no idea what to do with my coins in edu collab
+    - how can coins be helpful to me
+    - Can number of coins affect my grades
+    - What are the best ways for me to utilise my coins to answer the questions?
+    - What are the best method for me just to use my coins to answer the questions?
+    - how to use collected coins to ask questions?
+    - How can I utilise the coins I've collected to ask questions?
+    - How could I spend the coins I've collected to ask questions?
+    - What will be the usage of the coins I have gained?
+    - What will I do with the coins I've acquired?
+    - According to the FAQs, I'm not sure how to spend my coins.
+    - where can I usitilized the collected coins
+    - What is the purpose of coins in educollab
+    - What role do coins play in this scenario?
+    - What is the advantage of gaining more coins
 
 - intent: faq-question/ans-question
   examples: |
@@ -529,6 +900,15 @@ nlu:
     - is there any restriction to answer someone's questions?
     - am i restricted to ask the questions asked by other people on edu collab?
     - Is there a limit to how many questions you can answer on edu collab?
+    - Does edu collab have a restriction on the number of questions you can answer?
+    - Am I limited to answering questions posed by others on edu collab?
+    - Is there a limit to how many questions you can answer?
+    - can I answer questions asked by someone on educollab?
+    - Can I ask already asked questions?
+    - Does educollab allow asking multiple questions?
+    - Does edu collab offer the ability to respond to other people's questions?
+    - is there any limit for number of questions asked?
+    - what type of questions can I ask on educollab?
 
 - intent: faq-question/ans-video
   examples: |
@@ -543,6 +923,21 @@ nlu:
     - creating solution videos on edu collab is not a mandatory part i think?
     - i am sure its not compulsory to create solution videos on edu collab
     - i think creating sol videos on edu collab is not required
+    - will it do if I dont create solution video on educollab?
+    - will my grades be affected if I dont create video of solution?
+    - Am i required to make solution video compulsorily?
+    - Is it mandatory for me to prepare a solution video?
+    - What will happen if II dont create video of solution?
+    - How do I create solution video for educollab?
+    - I dont think there is any compulsion to create solution video for eucollab?
+    - What way can I build an educollab solution video?
+    - I don't believe that making sol videos for edu collab is necessary.
+    - What if I dont make any sol video and post it?
+    - I dont wish to make solution video on educollab
+    - I dont intend to create any solution video. Will it do?
+    - How long solution video can be?
+    - Does it require to post a solution video on educollab to get certificate?
+    - On educollab, am I supposed to post the solution video?
 
 # courses
 - intent: faq-course/enroll-courses
@@ -567,6 +962,16 @@ nlu:
     - please teach me how to put courses under my courses section?
     - could you explain me how to put courses under my courses section?
     - it would be really useful if you tell me how to put courses under my courses section
+    - What way can I add courses to the courses part of my website?
+    - Where do I need to go if I want to subscribe a particular course on educollab?
+    - Where do I go if I wish to subscribe to a certain educollab course?
+    - What are the maximum number of cources can I subscribe to?
+    - Is it possible to add courses to my courses section?
+    - What is the best way to add courses to my courses section?
+    - I'd be grateful if you could teach me how to add courses to my courses area.
+    - How to add new course in course section?
+    - What is the procedure for adding a new course to the course section?
+    - How do we go about adding courses to my courses section?
 
 - intent: faq-course/enroll-limit
   examples: |
@@ -580,7 +985,18 @@ nlu:
     - any limit to subscribe courses
     - am i really subscribe other courses in limit
     - i would appreciate if you tell me how much other courses i can subscribe
-    - what's the limit to subscribe other courses 
+    - what's the limit to subscribe other courses
+    - What is the subscription limit for the other courses section?
+    - Is there a limit to how many courses you can subscribe to in the other courses section?
+    - Could you tell me how many courses I can subscribe to?
+    - It would be extremely useful if you could inform me how many courses I can subscribe to.
+    - Is there truly a limit to how many courses you can subscribe to?
+    - Is it necessary to subscribe to a certain number of courses?
+    - It would be extremely useful if you could inform me the subscription limit.
+    - Is there a limit to how many courses you may subscribe to?
+    - Am I Really Subscribing to Other Courses in a Limited Capacity?
+    - I'd love it if you could tell me how much other courses cost.
+    - Is there a limit to how many courses you may subscribe to? 
 
 - intent: faq-course/course-categories
   examples: |
@@ -591,3 +1007,10 @@ nlu:
     - please tell me the how many categories for courses are there?
     - How many distinct types of courses are there?
     - pls tell me how many categories are available for courses
+    - What are the different types of courses?
+    - How many different kinds of programs are there?
+    - How many unique specialisations are there?
+    - It would be extremely useful if you could inform me how many different course categories there are.
+    - Could you kindly inform me how many different types of courses there are?
+    - What are the many sorts of courses available?
+    - Please tell me how many course categories are offered.
