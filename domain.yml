@@ -94,6 +94,9 @@ responses:
   utter_faq-course/course-categories:
   - text: "There are predefined categories for now total are 45 in which there are major categories and some are children of the major."
 
+# to handle low confidence answers
+  utter_please_rephrase:
+  - text: I'm sorry, I didn't quite understand that. Could you rephrase?
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

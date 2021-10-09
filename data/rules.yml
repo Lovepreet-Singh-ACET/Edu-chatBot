@@ -41,3 +41,9 @@ rules:
   steps:
   - intent: faq-mosaic
   - action: utter_faq-mosaic
+
+# rule for fall back classifier
+- rule: Ask the user to rephrase whenever they send a message with low NLU confidence
+  steps:
+  - intent: nlu_fallback
+  - action: utter_please_rephrase

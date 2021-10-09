@@ -47,7 +47,7 @@ pipeline:
     retrieval_intent: faq-course
     
   - name: FallbackClassifier
-    threshold: 0.3
+    threshold: 0.7
     ambiguity_threshold: 0.1
 
 # Configuration for Rasa Core.
