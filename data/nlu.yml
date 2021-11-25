@@ -125,6 +125,29 @@ nlu:
     - tell me the use of educollab
     - i am not aware about educollab could you please tell me something about it
 
+- intent: faq-edu/demo       # Date: 25 Nov 2021
+  examples: |
+    - is there any demo video available for edu-collab
+    - Maybe there is a  sample video of edu-collab available?
+    - it will be very helpful if there is any demo video for edu-collab
+    - can you provide a demo video for edu collab
+    - do you have any demo video for edu collab
+    - do any demo video for edu collab exists here?
+    - can i get any demo video for edu collab here
+    - i am not familier with edu collab, so i need a demo video
+    - i dont know to use edu collab, if you can help through a demo video
+    - it will be nice if you have demo video for edu collab
+    - i need a demo video for this platform
+    - i dont know to use this platform, can you provide any demo video
+    - kindly give me a demo video for edu collab platform
+    - I'm not sure how to utilise this platform; could you show me a demo video?
+    - Please provide me a video demo of the edu collab platform.
+    - Hey send me a video which can help to use edu collab platform.
+    - If there is a demo video for edu-collab, it would be really useful.
+    - Could you show me a demonstration video on how to use this platform?
+    - facilitate a video for edu collab
+    - Is there any way I can obtain a demo video for an edu collab here?
+
 # have to check if this intent is useful or not
 - intent: faq-edu/qualification
   examples: |
@@ -495,6 +518,21 @@ nlu:
     - Is it feasible for me to alter the online status to read or away?
     - Could you kindly inform me whether I may alter my status from away to online?
 
+- intent: faq-profile/social-media
+  examples: |
+    - can i link my social media handles to edu collab
+    - how to link social accounts on edu collab
+    - can i link the social accounts on this platform
+    - on this platform where can i link social media
+    - on edu-collab tell me the way to link my social handles
+    - how am i supposed to link my social handles on this platform
+    - i would appreciate if you tell me the way to link my social handles on this platform
+    - it would helpful if you suggest me how to link accounts on this platform
+    - is it possible to link social media on edu-collab
+    - can you please tell me to link the social accounts on this platform
+    - is there any way to link my social accounts 
+    - how to link my social media account to this platform
+
 - intent: faq-login/credentials
   examples: |
     - from where can I get login credentials?
@@ -819,6 +857,51 @@ nlu:
     - I'd want to know the overall number of mosaic projects accessible.
     - Could you please give me the overall number of projects? 
 
+- intent: faq-mosaic/mosaic-projects              # Date 25 Nov 2021
+  examples: |
+    - how can we search on mosaic section for specific projects
+    - How can we look for certain projects in the mosaic section?
+    - What is the best way to find certain projects in the mosaic section?
+    - What can be the most efficient approach to locate certain mosaic projects?
+    - i want to see certain projects in mosaic section, how can i
+    - i have to go through all projects on mosaic
+    - whats the procedure to search for projects in mosaic
+    - where is the mosaic section and how can i search projects in there
+    - jump me to mosaic section projects
+    - let me redirect to mosaic section, i want to see some projects
+    - i am interested to see some real time projects on mosaic
+    - i need your help to find projects on mosaic
+    - i am not able to find projects on mosaic section
+    - i dont know where are the projects  under mosaic section
+    - kindly help me to search projects on mosaic section
+    - help me finding specific projects on mosaic
+    - please tell me the way to search for  projects in mosaic section of edu collab
+    - i want to search for certain projects but i am confused with mosaic section
+    - how can you help me to reach out for projects edu collab
+    - where to seach for projects on edu collab
+
+- intent: faq-mosaic/certifications
+  examples: |
+    - can we get certified from sabudh even if we don't do a passion project
+    - I am confused if i do not complete or chose my passion project, will i still get certificate
+    - i dont know if it is compulsory to do passion project in order to get certified from Sabudh
+    - I'm not sure if completing a passion project is required in order to receive a certificate from Sabudh.
+    - is it required to do passion project to get Sabudh certification.
+    - please tell do i need to do passion project to recieve certificate
+    - let me know i need to complete a passion project or not  for getting certificate.
+    - can i leave passion project, will i be still able to get certificate
+    - is passion project mandatory to get certification from Sabudh
+    - i dont want to do passion project as i dont have much time, so will i still get certified?
+    - Will I still get certified if I don't undertake a passion project ?
+    - If I don't do a passion project, then i will be certified or not after internship?
+    - if i do my whole internship without a passion project, will i recieve certificate
+    - is passion project recommended in order to get certified from Sabudh?
+    - i want to do this internship without a passion project, will i get any certificate or not
+    - is it possible to get certificate of internship without doing passion project?
+    - will i be eligible for sabudh certification if skip passion project
+    - If I omit the passion project, would I be able to get a sabudh certification?
+    - If I don't do the passion project, will it restrict my sabudh certification?
+
 # question
 - intent: faq-question/ask-ques
   examples: |
@@ -1014,3 +1097,679 @@ nlu:
     - Could you kindly inform me how many different types of courses there are?
     - What are the many sorts of courses available?
     - Please tell me how many course categories are offered.
+
+- intent: faq-course/subscribed-courses       # Date: 25 Nov 2021
+  examples: |
+    - how can i view the courses that i have suscribed to
+    - i want to view the subscribed courses
+    - could you please tell how to see all asubscribed courses in edu collab
+    - i dont know where are my all subscribed courses
+    - take me to page where i can access all the subscribed courses
+    - where are subscribed courses on edu collab
+    - i am not familier with edu collab, so tell me where i can see subscribed courses
+    - i have subcribed some courses on edu collab and now i want to see them all, how can i
+    - i'd like to check all the subcribed courses on edu collab
+    - where can i access all subscribed courses on edu collab
+    - in which section under edu collab, all subscribed courses are located
+    - view the subscribed courses on edu collab
+    - On edu collab, where can i see the courses that have been subscribed to.
+    - how to find subscribed courses on edu collab
+    - show me the location of subscribed courses under edu collab
+    - i am unable to find subscribed courses on edu collab
+    - On edu collab, I can't seem to discover any subscribed courses.
+    - help me discover subscribed courses on edu collab
+    - show me the courses i have subscribed to on edu collab
+
+- intent: faq-course/courses-rating
+  examples: |
+    - can we give rating to courses on edu collab
+    - how can i give ratings to courses available on edu collab platform
+    - is there any way to rate the courses on edu collab
+    - please tell me if i can rate or review the courses on edu collab
+    - Is it possible to rate courses on edu collab?
+    - Can we rate edu collab courses?
+    - Can we offer courses on edu collab a rating?
+    - i want to rate the courses availabe on edu collab, can i?
+    - Is there a method to rank edu collab courses?
+    - am i able to rate the edu collab courses
+    - it will be good if we can rate the edu collab courses
+    - is rating feature for courses available on this platform
+    - all the courses are very nice and i want to rate them all, but how can i
+    - i dont know if i can rate or not the courses of edu collab
+
+# Date: 25 Nov 2021
+
+- intent: faq-tatras/sabudh-role
+  examples: |
+    - what is the role of tatras in sabudh
+    - i want to know about role of tatras in Sabudh
+    - can you tell me why is tatras in sabudh
+    - I'm curious in the role of tatras in Sabudh.
+    - clarify me of tatras role in sabudh foundation
+    - help me clear my dout regarding tatras role in sabudh
+    - what role does tatras playing in sabudh
+    - is there any role of tatras for sabudh
+    - please tell me is there a place for tatras in sabudh?
+    - Do tatras have any significance in the case of Sabudh?
+    - Is there any importance to tatras in the case of Sabudh?
+    - Do tatras play a role in Sabudh's case?
+    - i have one doubt that does tatras matter in case of sabudh
+    - i dont know if tatras has any role in sabudh or not
+    - I'm not sure if Tatras plays a part in Sabudh.
+    - tell me if Tatras has anything to do with Sabudh.
+
+- intent: faq-tatras/sabudh-part
+  examples: |
+    - is tatras the part of sabudh ?
+    - is tatras separate from sabudh
+    - whats the difference between tatras and sabudh
+    - is tatras and sabudh related with each other in any way
+    - i dont know if tatras is part of sabudh or whatever
+    - clarify me that if tatras comes under sabudh
+    - Is tatras significant in Sabudh's case?
+    - do you know if tatras is a part of sabudh or not?
+    - help me know that tatras is included in sabudh or not
+    - Please tell me if the Tatras are included in Sabudh or not.
+    - Kindly inform me whether or not the Tatras are part of Sabudh.
+    - let me know if tatras is related with sabudh or not
+    - Pls inform me if the Tatras are linked to Sabudh or not.
+    - are tatras and sabudh connected with each other?
+    - Is there a link between the Tatras and the Sabudh?
+    - i am confused that does tatras and sabudh has any relationship
+
+- intent: faq-tatras/info
+  examples: |
+    - is tatras a company or foundation
+    - tell me tatras is a company or foundation or not
+    - i dont know what is tatras
+    - help me to know a little bit about tatras
+    - please let me know whether tatras is company or foundation ?
+    - Please tell me if Tatras is a corporation or a nonprofit.
+    - Can you please tell me if Tatras is an organization or a foundation?
+    - i need your help to know that  tatras is foundation or company?
+    - I'm not sure what tatras is.
+    - i am not aware with tatras, is it a organisation?
+    - i think tatras is also a foundation
+    - in my perspective of view, tatras is more like a foundation, but could you pls clarify me
+    - Please assist me in discovering more about the Tatras.
+    - Please assist me in getting to know more about the Tatras.
+    - i am interesed to know the fact that tatras comes under sabudh or not
+
+- intent: faq-tatras/work-type
+  examples: |
+    - what type of work is done in tatras
+    - what tasks we will be performing in tatras
+    - what work we will do in tatras
+    - i want to know that which type of work is to do in tatras
+    - please inform me for type of work that is done in tatras
+    - i dont know what tasks are performed in tatras
+    - could you please tell me what tasks are performed in tatras
+    - which type of jobs are carried out in tatras
+    - i am not sure what jobs people do in tatras
+    - I'd like to know what kind of job is available in the Tatras.
+    - do you know what kind or sort of work is done in tatras
+    - i am confused for which type of work is assigned in tatras
+    - kindly inform me what kind of job or work is allocated in tatras
+    - please let me know what kind of work does tatras will give us to do
+    - do you have any kind of info about jobs of tatras, what tasks do we have to perform here
+    - it will be helpful if you give some idea about what kind of job do we have to do in tatras
+
+- intent: faq-tatras/job
+  examples: |
+    - how can i get a job in tatras
+    - could you please tell how to get employed in tatras
+    - i want to be employee in tatras, please do let me know how
+    - how can i be employed in tatras
+    - i dont have any idea to get job in tatras
+    - please let me know the procedure for get employed in tatras
+    - i am very excited to work for tatras, but how can i get job here
+    - I am extremely eager to work with Tatras, but how do I go about getting a position here?
+
+# - intent: faq-tatras/projects
+#   examples: |
+#     - is the projects are done in tatras
+
+- intent: faq-sabudh/work
+  examples: |
+    - what does sabudh do
+    - role of sabudh
+    - tell me the work of sabudh
+    - i would appreciate if you tell me the work of sabudh
+    - plzz let me know the purpose of sabudh
+    - why sabudh built 
+
+- intent: faq-sabudh/relationship
+  examples: |
+    - what is the relation between sabudh and tatras
+    - how tatras and sabudh are connected
+    - is tatras and sabudh have relationship 
+    - is there any bond between tatras and sabudh
+    - how saubdh and tatras are interconnected
+    - is it true that sabudh and tatras are same
+    - how we can diffrentiate sabudh and tatras
+
+- intent: faq-mentor/mentor-assigned
+  examples: |
+    - how can i get a mentor
+    - what's the way to get mentor
+    - how we can get a mentor
+    - procedures of getting a mentor
+    - what are the ways to get a mentor
+    - is it true that mentors are assigned automatically
+    - i would appreciate ifyou tell me how to get mentor
+
+- intent: faq-mentor/role-of-mentor
+  examples: |
+    - what is the role of mentor 
+    - what does mentor do
+    - explain the work of mentor
+    - why mentors are assigned
+    - is it really need of mentors
+    - explain the role of mentor
+    - i would appreciate if you tell me the role of mentors
+
+- intent: faq-mentor/mentor-number
+  examples: |
+    - how many mentors can I get
+    - What is the maximum number of mentors I can have?
+    - What is the quantity of mentors I can have?
+    - How many mentors am I able to secure?
+    - How many mentors am I able to obtain?
+    - How many mentors can I obtain?
+    - Is there any limit to number of mentors I can get?
+    - what number of mentors will I be assigned?
+    - How many mentors will be assigned to me?
+    - What is the total number of mentors I will have?
+    - what's the overall number of mentors I can have?
+    - Is there a cap on how many mentors I can have?
+    - Can I have a certain amount of mentors?
+    - Can I just have that amount of mentors?
+    - Is there a limit to how many mentors I can have?
+    - Can I have only that many mentors?
+    - can I have more mentors?
+    - Please tell me how many mentors can I get?
+    - Can you tell me how many mentors I'll be able to get?
+    - Can you tell me how many mentors I'll be able to hire?
+    - Could you please inform me how many mentors I can have?   
+
+- intent: faq-mentor/mentor-data
+  examples: |
+    - how can i know who is our mentor
+    - How can I find out who our mentor is?
+    - Can you tell me who our mentor is?
+    - I want to know who is my mentor
+    - I'd like to know who my mentor is.
+    - Could you tell me who my mentor is?
+    - Please tell me who is my mentor?
+    - I'd like to find out who my mentor is.
+    - tell me my mentor's name
+    - Please tell me who my mentor is.
+    - Inform me of the name of my mentor
+    - Whom should I ask about my mentor?
+    - Should I inquire about my mentor with whom?
+    - Who should I consult on my mentor?
+    - Who should I contact regarding my mentor?
+    - can you tell me how I can know my mentor
+    - Could you please tell me how I can get to know my mentor?
+    - please explain how I can get to know my mentor?
+    - how can I know about my mentor?
+    - How do I find out who my mentor is?
+    - how can I come to know my mentor?   
+
+- intent: faq-mentor/mentor-info
+  examples: |
+    - how can i contact to my mentor
+    - How can I get in touch with my mentor?
+    - What is the best way for me to get in touch with my mentor?
+    - Which is the ideal way for me to get in contact with my mentor?
+    - how to contact mentors
+    - how to get in touch with mentors
+    - on which platform should I get in contact with my mentor?
+    - I should contact my mentor through which platform?
+    - want to contact my mentor
+    - which is the possible way to contact mentors?
+    - any particular platform for contacting mentors?
+    - Is there a specific platform for contacting mentors?
+    - Is there a specific way to contact mentors?
+    - Could there be a particular way of contacting mentors?
+    - where can I interact with mentor?
+    - How can I communicate with my mentor?
+    - What is the best way for me to communicate with the mentor?
+    - how to get in touch with mentors
+    - Suggest me ways to contact mentor
+    - Please suggest ways for me to contact the mentor.   
+
+- intent: faq-mentor/mentor-help
+  examples: |
+    - what kind of help mentor can give
+    - how can mentors help
+    - What kind of assistance may a mentor provide?
+    - what type of help mentor can give
+    - How much assistance can a mentor provide?
+    - What sort of help may a mentor deliver?
+    - what way can mentors help me
+    - How can mentors assist me?
+    - How can mentors benefit me?
+    - What way can a mentor support me?
+    - How can mentors aid me?
+    - what type of help should I expect from my mentor?
+    - What kind of assistance might I anticipate from my mentor?
+    - Exactly what type guidance could I expect from my mentor?
+    - Know what sort support should I expect from my mentor?
+    - how can I get mentor help
+    - how much can a mentor help?
+    - what type of help a mentor gives?
+    - I want some type of mentor help.
+    - what sort of help can a mentor provide
+    - can u tell me how would mentors be help to us?
+    - how would we be benefitted from mentors?
+    - what are the benefits of having mentors?
+
+- intent: faq-mentor/mentor-help-assignment
+  examples: |
+    -can mentor help in solving assignement
+    - should I rely on my mentor for solving coursework
+    - Can a mentor assist with an assignment?
+    - Should I entrust my coursework to my mentor?
+    - should I expect help from mentor for coursework?
+    - Should I expect coursework assistance from my mentor?
+    - Can a mentor help with a project?
+    - I need help in solving assignments. Should I contact my mentor?
+    - I require assistance in completing assignments. Is it necessary for me to contact my mentor?
+    - Should I ask my mentors for help in assignments?
+    - Should I seek assistance from my mentors for assignments?
+    - will mentor help solving assignments
+    - I want help from mentors for assigments
+    - I'd like mentors to assist me with assignments.
+    - I'd like mentors to help me with my homework.
+    - I want my mentors to assist me with my coursework.
+    - I need mentor help for solving assignments
+    - i would wish if mentor helped me in my assignments
+    - It would be helpful if mentors help in assignments
+    - want to know if mentors guide how to solve assignments    
+
+- intent: faq-mentor/mentor-work
+  examples: |
+    - is my work checked by my mentor
+    - will mentor check my work
+    - will my work get checked by my mentor
+    - I want my mentor to check my work done
+    - Does my mentor review my work?
+    - Can my mentor evaluate my work?
+    - Would my mentor assess my work?
+    - Can my mentor verify my work?
+    - I'd like my mentor to review my work.
+    - I'd prefer my mentor to double-check my work.
+    - Please tell me if my mentor will cross check my work
+    - Could you please let me know if my mentor will double-check my work?
+    - how can I get my work checked by mentor
+    - am I allowed to get my work checked by mentor?
+    - Do mentors check work done?
+    - can i know if i can get my work checked by mentors
+    - Do mentors review completed work?
+    - Do mentors analyze finished work?     
+
+- intent: faq-mentor/change-mentor
+  examples: |
+    - can we change our mentor
+    - I want to change my mentor
+    - how do I change my mentor
+    - Is it possible to have new mentor
+    - Can a new mentor be appointed?
+    - How could a new mentor be selected?
+    - I'd like to change my mentor
+    - Is it possible to switch mentors?
+    - I'd want to change mentors.
+    - I wish to change my mentor
+    - Please tell me if I can change my current mentor
+    - Could you please inform me whether I may switch mentors?
+    - Will you please let me know whether I should change mentors?
+    - I want to have different mentor.
+    - I'd like to work with a different mentor.
+    - I want to connect with a different mentor.
+    - I'd want to connect with a new mentor.
+    - Let me know if I can change my present mentor
+    - Please let me know if I may switch mentors.
+    - want my mentors to be changed
+
+- intent: faq-mentor/mentor-assigned-myself
+  examples: |
+    - can we select our mentor by ourselves
+    - I want to select my mentor by myself
+    - Can we choose our mentor on our own?
+    - Can we decide our mentor all our own?
+    - am i allowed to choose mentor on my own
+    - Is it possible for me to pick my own mentor?
+    - Could it be viable for me to find my own mentor?
+    - Will it be reasonable for me to appoint my own mentor?
+    - What if I want to choose mentor myself?
+    - want to select my mentor on my own
+    - tell me if I am allowed to choose mentor myself
+    - I am selecting mentor myself
+    - is it okay to choose my mentor by my own
+    - suggest me some ways to find mentors by myself
+    - does sabudh allow selecting mentors on own?
+    - I'd like to choose a mentor
+    - would like to know how can i find a mentor?
+    - please tell me how to select mentors ourselves
+    - do we have freedom to select mentors
+    - can I appoint mentors as per my wish?
+    - are mentors chosen my us?
+    - Do we choose our mentors?
+    - it would be good if we select mentors oueselved   
+
+- intent: faq-mentor/other-mentor-help
+  examples: |
+
+
+- intent: faq-guftagu/location
+  examples: |
+    - how we can find guftagu
+    - where can i get guftagu
+    - i would appreciate if you tell me where we can locate guftagu
+    - how can i find guftagu
+    - where is guftagu located
+    - please let me know the location of guftagu
+    - plzz tell me where can i find guftgau
+    - how can we locate guftagu
+    - please tell me the where can i find guftagu
+    - i can't find guftagu
+    - from where we can get guftagu   
+
+- intent: faq-guftagu/purpose
+  examples: |
+    - what is the purpose of guftagu
+    - why guftagu made
+    - tell me the main purpose of guftagu
+    - why guftagu built
+    - i would appreciate if you tell me the purpose of guftagu
+    - plzz tell me why guftagu built
+    - i don't understand the purpose of guftagu
+    - what is the role of guftagu
+    - Why was Guftagu built?
+    - I'm not sure what guftagu is for.
+    - What is the function of guftagu?    
+
+- intent: faq-guftagu/friend-request
+  examples: |
+    - how can i add friend on guftagu
+    - how to add friend in guftagu
+    - plzz tell me the way to add friend in guftgau
+    - i would appreciate if you tell me how to add friend in guftagu
+    - can you help me to add friend in guftagu
+    - is there any way you can assisst me to add friend in guftagu
+    - what is the procedures to add friend in guftagu
+    - i can't find how to add friend in guftagu
+    - is guftagu have features to make friend 
+    - how can i add my friend in my friend list on guftgau
+    - What are the steps to add a friend in Guftagu?
+
+- intent: faq-guftagu/role
+  examples: |
+    - what is the role of chats and group in guftagu
+    - is there any difference between chats and group
+    - tell me the role of chats and groups in guftagu
+    - why guftagu have chats and groups
+    - why chats and groups was built in guftagu
+    - what is the purpose of chats and groups in guftagu
+    - What function do chats and groups play in guftagu?
+    - Is there a distinction between chats and groups?
+    - Please explain the function of chats and groups in Guftagu.
+    - What is the purpose of Guftagu's chats and groups?
+    - Why were chats and groups created in Guftagu?
+
+- intent: faq-guftagu/group-limit
+  examples: |
+    - is there any limit to make groups in guftagu
+    - tell me the maximium limit to make groups 
+    - how many groups can i make in guftagu
+    - is it possible to make 10 groups in guftagu
+    - is there any limit of making groups in guftgau
+    - is it true that we can make 30 groups in guftagu
+    - Is there a limit to the number of groups that may be formed in Guftagu?
+    - what is the guftagu's group limit
+    - can i make 2 groups in guftagu
+    - Is there a maximum number of groups that may form in Guftagu?
+    - what's the limit of making groups in guftagu    
+
+- intent: faq-guftagu/send-photo
+  examples: |
+    - can i send documents/photos on guftagu
+    - can i share images in guftgau
+    - is it possible that i can share documents or photos in guftagu
+    - is it true that guftgau have features of sharing imags with friends
+    - Is it possible to exchange photographs in Guftgau?
+    - am i able to post photos in Guftgau?
+    - Is it possible to submit documents/photos using guftagu?
+    - Is it possible to exchange photos in guftgau?
+    - Is it possible to exchange documents or photos using guftagu?
+    - Can I submit images in Guftgau?   
+
+- intent: faq-guftagu/group-photo
+  examples: |
+    - can we change our group photo in guftagu
+    - In Guftagu, can we update our group photo?
+    - In Guftagu, is it possible to update our group photo?
+    - Can we alter our guftagu group photo?
+    - i wanna change group photo in guftagu
+    - tell procedure for changing the group photo in guftagu    
+
+- intent: faq-guftagu/group-member-imit
+  examples: |
+    - how many members can we add in one group
+    - How many people can we fit into a single group?
+    - What is the maximum number of people we can have in a single group?
+    - i dont know how many members can be in a single  group in guftagu
+    - what number of members can i add to group in guftagu
+    - is there any limit to add group members in guftagu    
+
+- intent: faq-guftagu/friend-request
+  examples: |
+    - where can i find the friend requests
+    - how can i see friend requests on edu collab
+    - how to find friend requests in edu collab
+    - i dont know how to view friend requests
+    - where are my friend request can you tell me
+    - can you tell me the way to find my friend requests on edu collab
+    - i am unable to find the friend requests on edu collab
+    - do you know where could be my friend req on edu collab
+    - where do my friend requests exist on edu collab
+    - Do you have any idea where my friend's req on edu collab could be?
+    - On edu collab, where can I find my buddy requests?
+    - On edu collab, I can't locate the friend requests.
+    - Can you tell me how to find my edu collab friend requests?
+    - On edu collab, how can I view friend requests?
+    - What is the location of the friend requests on edu collab?
+    - i wanna know that how to see friend req on edu collab
+    - I'm looking for the friend requests, but I am not able to find them anywhere on edu collab.
+    - Where do I look for buddy requests?
+    - help me to find out all my friend requests on edu collab
+    - Please assist me in locating all of my edu collab friend requests.
+    - Kindly guide me track down all of my edu collab friend requests.
+
+- intent: faq-guftagu/chat
+  examples: |
+    - can i send message to any user in guftagu
+    - how to send message to any user in guftagu
+    - can we chat with any user in guftagu
+    - is it possible to have chat with any user on edu collab's guftagu section
+    - is there any way to send messages any user in guftagu
+    - can we send message to any user in guftagu
+    - Is it possible for us to send a message to any user in Guftagu?
+    - i'd want to send a message to someone in Guftagu, but i'm not sure how to do it.
+    - is chating with any user allowed in guftagu section of edu collab
+    - Is guftagu area of edu collab allowing users to chat with each other?
+    - help me to know if i can send messages to any user in guftagu or not
+    - suggest me the way i can chat with any user in guftagu
+    - Please propose a method for me to communicate with users in Guftagu.
+    - chating with any user in guftagu is allowed or not?
+    - Is it permissible to talk with anyone in guftagu?
+    - Is it legal to converse with anyone in Guftagu?
+
+- intent: faq-guftagu/group-add
+  examples: |
+    - can i add a user in our group in guftagu who is not my friend
+    - Is it possible to add a non-friend to our Guftagu group?
+    - Is it feasible to include someone who isn't a buddy in our Guftagu group?
+    - Is it able to add someone who isn't a Guftagu buddy to our group?
+    - i want to add a non friend user in group on guftagu, can i do so
+    - i dont know to add user in guftagu group which is not my friend 
+    - I'm not sure how to add a person to the Guftagu group who isn't a friend of mine.
+    - Is it possible to add a non-friend user to a group on guftagu?
+    - Is it possible to add someone to our group who isn't a Guftagu friend?
+    - Is it possible for someone who isn't a friend to join our Guftagu group?
+    - Is it feasible to add someone who isn't a friend to our Guftagu group?
+    - Can I add a person who is not a friend to our guftagu group?
+
+- intent: faq-guftagu/group-remove
+  examples: |
+    - how can i remove user from my group in guftagu
+    - whats the method to remove a member from group in guftagu
+    - i want to remove a member from group in guftagu, how can i ?
+    - help me in removing a group member from guftagu 
+    - is there any way to remove a particular group member in guftagu ?
+    - i dont know how to remove a group person in guftagu
+    - I'm not sure how to remove a group member in Guftagu.
+    - Is it possible to remove a specific group member in guftagu?
+    - Assist me in removing a member of the guftagu group.
+    - How can I delete a member from a group in Guftagu?
+    - What is the procedure for removing a member from a group in Guftagu?
+    - In Guftagu, how can I delete a person from my group?
+
+- intent: faq-guftagu/block-user
+  examples: |
+    - how can i block a user
+    - i want to block a user in guftagu
+    - whats the way to block a particular user on guftagu
+    - kindly let me know how to block a specific user on guftagu 
+    - is it possible to block a user on guftagu, if yes then how ?
+    - i dont know to block a user in guftagu
+    - I'm not sure how to block a user in Guftagu.
+    - Is it possible to ban a user on Guftagu, and if so, how?
+    - Could you please tell me how to block a certain individual on guftagu?
+    - How do I block a certain person on guftagu?
+    - I'd want to remove a user on guftagu.
+    - some of the users i had wanted to block, so how to do that?
+    - do you know how to block a specific user from guftagu
+
+- intent: faq-guftagu/remove-user
+  examples: |
+    - how can i remove a user from my friend list
+    - What is the procedure for removing a user from my friend list in guftagu?
+    - How can I delete someone from my friend list in guftagu?
+    - i dont know how to remove someone from my friend list in guftagu?
+    - i want to remove a friend in guftagu, please tell me how to do that
+    - I'd want to delete a buddy from Guftagu; could you help explain how? 
+    - help me removing a friend from guftagu
+    - i am not familier with removing friends from friend list in guftagu
+    - do you know how to remove a friend form guftagu
+    - i want to remove some friends from my friend list, but dont know how to do that
+    - tell me the way to remove a friend from friend list        
+
+- intent: faq-guftagu/search-user
+  examples: |
+    - how can i search a friend in guftagu
+    - is there any way to search a friend in guftagu
+    - i would appreciate if you tell me to search a friend in guftagu
+    - Is it possible to search a friend in Guftagu?
+    - I'd love it if you could advise me where I may find a search in Guftagu.
+    - can i search a friend in guftagu
+    - how to find a friend in guftagu
+    - i would appreciate if you tell me to find a friend in gufatgu
+    - is there any way to find a buddy in gufatgu   
+
+- intent: faq-lecture/lecture-resources
+  examples: |
+    - where can i find resources used in a lecture on edu collab
+    - i need the resources used in lecture where can i find them
+    - please tell me where are resources for each lecture on this platform
+    - i am unable to find resources delievered in each lecture on edu collab
+    - how can i find resources that are used in lectures on edu-collab 
+    - assist me to locate the resources that are used in edu-collab
+    - facilitate me the resources that are used in edu-collab lectures
+    - i can't found the resources that are used in edu-collab lectures
+    - from where can i get the resources that are used in lectures
+    - it would be helpfull if you tell me where can i found resources for each lecture on this platform
+    - Where can I locate resources utilised in an edu collab lecture?
+    - In this platform, where can I discover resources utilised in a lecture?
+    - I'm looking for the lecture resources; where can I get them?
+    - Where can I access the resources used in the lecture?
+    - Please let me know where I may get resources for each lecture on this platform.
+    - Please inform me where on this platform I can get resources for each lecture.
+    - On edu collab, I am unable to locate the resources delivered in each lecture.
+    - I am unable to locate the resources given in each lecture on edu collab.
+    - Where can I access resources used in edu-collab lectures?
+    - On edu-collab, where can I locate lecture resources?
+    - Assist me in locating the resources on this platform
+    - Provide me the resources used in edu-collab lectures.
+    - where is the resources used in edu-collab lectures
+    - It would be useful if you could inform me where on this platform I can get resources for each lecture.
+    - It would be great if you could inform me where I may get resources for each lecture on edu-collab
+    - Where can I get resources for an edu collab lecture?
+    - May you tell me where I can get resources used in an edu collab lecture?
+    - Where can I get the resources utilised in the edu-collab lectures?
+    - Where can I get lecture resources on edu-collab?
+    - Could you please tell me where I may obtain resources for an edu collab lecture?
+
+- intent: faq-lecture/resource-notfound
+  examples: |
+    - I am not able find resource for a lecture under the resources section whom to contact
+
+- intent: faq-lecture/lecture-assesment
+  examples: |
+    - where can i find the assesments that i am required to complete
+    - how can i locate the assessment that i am required to complete
+    - locate me the assessment that are not complete
+    - where is the uncompleted assessment of mine
+    - assist me to find the undone assessment on this platform
+    - tell me the location where all my uncompleted assessment are exist
+    - on this platform where can i find my undone assessments
+    - Where can I locate the assessments that I need to complete?
+    - Where can I get the assessment that I'm supposed to do?
+    - Find the assessments that aren't finished
+    - Where can I find my unfinished assessment?
+    - Assist me in locating the incomplete assessment on this platform.
+    - Tell me where I may find all of my unfinished assessments.
+    - Where can I locate my unfinished assessments on this platform?
+    - Where can I locate the assesments that I need to complete?
+    - What are the locations of the assessments that I need to complete?
+    - Where can I get the assessment that I'm supposed to do?
+    - Where can I get the assessment that I am expected to complete?
+    - how Do I get the assessment that I need to complete?
+    - Find the assessments that aren't finished 
+    - Find me the assessments that aren't completed.
+    - Where can I find the assessments I need to take?
+    - from where can I see the assessments I need to finish?
+    - Where can I obtain the assessment that I am required to complete?
+    - Where can I obtain the assessment that I am required to complete?
+
+- intent: faq-lecture/notes-upload
+  examples: |
+    - can i upload my notes to edu collab
+    - is it possible to upload my notes on this platform
+    - it would be really helpful if you tell me to update my notes
+    - how to upload notes on this platform
+    - how can i upload my notes
+    - is it feasible for me to upload my notes
+    - i would appreciate if you tell me how to upload notes
+    - can you help me to upload my notes on this platform
+    - is there way to upload my notes on this platfrom
+    - assisst me to upload my notes on edu-collab
+    - provide me help to upload the notes on this platform
+    - Is it possible for me to submit my notes to edu collab?
+    - Will my notes be able to be uploaded to this platform?
+    - Is it feasible for me to upload my notes to this platform?
+
+- intent: faq-lecture/download-lecture
+  examples: |
+    - is it possible to download lectures from edu collab
+    - how can i downlod lectures from edu-collab
+    - is there any way to download the lectures of edu-collab
+    - can tell me how to download lectures from this platform
+    - how am i supposed to download lecture from this platform
+    - where can i download lectures from edu collab
+    - could you please tell me how can i download lectures from edu collab
+    - it would be helpful if you tell me how to download lectures 
+    - on this portal can we download lectures on this platform
+    - how to download lectures
+    - is it possible to download edu-collab lecture's

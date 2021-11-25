@@ -14,6 +14,11 @@ intents:
   - faq-course
   - faq-question
   - faq-mosaic
+  - faq-tatras
+  - faq-sabudh
+  - faq-mentor
+  - faq-guftagu
+  - faq-lecture
 
 responses:
   utter_greet:
@@ -41,6 +46,8 @@ responses:
   - text: "never"
   utter_faq-edu/my-content-section:
   - text: "all the questions answered by you will appear under my content tab"
+  utter_faq-edu/demo:
+  - text: "Yes"
   utter_faq-profile/update-role:
   - text: "No, you cannot change the role of your profile"
   utter_faq-profile/update-profile:
@@ -57,6 +64,8 @@ responses:
   - text: "so it means if you are on educolab you have to select read if you are away you will select "
   utter_faq-profile/status-change:
   - text: "By clicking on what you want to show on your profile from read, online, and away options"
+  utter_faq-profile/social-media:
+  - text: "No"
   utter_faq-login/credentials:
   - text: "Sabudh foundation provides the credentials."
   utter_faq-login/create:
@@ -79,6 +88,10 @@ responses:
   - text: "yes, sure you can"
   utter_faq-mosaic/mosaic-proj-count:
   - text: "51 projects"
+  utter_faq-mosaic/mosaic-projects:
+  - text: "By using Search mosiac option, given at top right of the screen."
+  utter_faq-mosaic/certifications:
+  - text: "Yes, but then certificate will be provided for course completion only."
   utter_faq-question/ask-ques:
   - text: "On top right, there is question tab, click on it and click on ask question"
   utter_faq-question/coins-use:
@@ -93,6 +106,90 @@ responses:
   - text: "There is no such limit to the number of courses that you can subscribe to as long as the course is visible to you in the other courses section."
   utter_faq-course/course-categories:
   - text: "There are predefined categories for now total are 45 in which there are major categories and some are children of the major."
+  utter_faq-course/subscribed-courses:
+  - text: "From the "courses" option."
+  utter_faq-course/courses-rating:
+  - text: "Yes"
+  # Date 25 Nov 2021
+
+  utter_faq-tatras/sabudh-role:
+  - text: "Sabudh is sister company of Tatras"
+  utter_faq-tatras/sabudh-part:
+  - text: "Sabudh is sister company of Tatras"
+  utter_faq-tatras/info:
+  - text: "Company"
+  utter_faq-tatras/work-type:
+  - text: "Tatras is data science lab consultancy"
+  utter_faq-tatras/job:
+  - text: "By performing good at sabudh."
+  utter_faq-tatras/projects:
+  - text: "Yes"
+  utter_faq-sabudh/work:
+  - text: "Sabudh is a non profit organization which provide education related to computer science to students. it also gives opportunity to students to work on live projects that are running for social good. "
+  utter_faq-sabudh/relationship:
+  - text: "Sabudh is sister company of Tatras"
+  utter_faq-mentor/mentor-assigned:
+  - text: "When you will enroll in the course at sabudh. A mentor will be assigned to you and sabudh team will inform you about it."
+  utter_faq-mentor/role-of-mentor:
+  - text: "Mentor helps the student to clear his/her doubts. listen to all the problems of the student and try to solve it. students have 2 meetings a week with mentor. at the end mentor is the person to whom management team reach out to chcek the performance of student."
+  utter_faq-mentor/mentor-number:
+  - text: "One"
+  utter_faq-mentor/mentor-data:
+  - text: "Sabudh team will inform you about this. You will be added in a whatsaap group of your mentor."
+  utter_faq-mentor/mentor-info:
+  - text: "You will be added in whatsaap group of your mentor. you will have two meetings a week with your mentor. you can also call your mentor anytime within working hours. "
+  utter_faq-mentor/mentor-help:
+  - text: "Mentor helps the student to clear his/her doubts. listen to all the problems of the student and try to solve it. students have 2 meetings a week with mentor. at the end mentor is the person to whom management team reach out to chcek the performance of student."
+  utter_faq-mentor/mentor-help-assignment:
+  - text: "Yes, student can discuss the assignments with mentor in which he/she is facing issue. mentor will help the student to understand the concept and solve problems."
+  utter_faq-mentor/mentor-work:
+  - text: "Yes."
+  utter_faq-mentor/change-mentor:
+  - text: "Only with a valid reason."
+  utter_faq-mentor/mentor-assigned-myself:
+  - text: "No"
+  utter_faq-mentor/other-mentor-help:
+  - text: "If mentor allows you and he/she have some extra time for you then, Yes you can."
+  utter_faq-guftagu/location:
+  - text: "At the top menu of educollab screen you will see a tab named "guftagu". click on that and use chat facility of educollab."
+  utter_faq-guftagu/purpose:
+  - text: "guftagu is a tab where students & mentors can chat and discuss matters here."
+  utter_faq-guftagu/friend-request:
+  - text: "From the search bar appearing on top on Guftagu page"
+  utter_faq-guftagu/role:
+  - text: "In chat option you can chat with individuals and in group chat you can chat with the whole group of your course."
+  utter_faq-guftagu/group-limit:
+  - text: "No"
+  utter_faq-guftagu/send-photo:
+  - text: "No"
+  utter_faq-guftagu/group-photo:
+  - text: "Only the admin can"
+  utter_faq-guftagu/group-member-imit:
+  - text: "No limit"
+  utter_faq-guftagu/friend-request:
+  - text: "From the search bar appearing on top on Guftagu page"
+  utter_faq-guftagu/chat:
+  - text: "No"
+  utter_faq-guftagu/group-add:
+  - text: "Yes"
+  utter_faq-guftagu/group-remove:
+  - text: "Only the admin can"
+  utter_faq-guftagu/block-user:
+  - text: "No funtionality yet"
+  utter_faq-guftagu/remove-user:
+  - text: "This function is not yet implemented." 
+  utter_faq-guftagu/search-user:
+  - text: "From the search bar appearing on top on Guftagu page"
+  utter_faq-lecture/lecture-resources:
+  - text: "Go into video tab, at the bottom of video you will see "Resources" option. Click on that option and you will see the resources. "
+  utter_faq-lecture/resource-notfound:
+  - text: "Drop a mail at nampreet@sabudh.org or eknoor.k@sabudh.org / reach out to the mentor who took the lecture."
+  utter_faq-lecture/lecture-assesment:
+  - text: "Go to the course that you have subscribed, then open the video under which assessment is assigned. click on the "assessment" button given at the bottom of video. you will see the assessment."
+  utter_faq-lecture/notes-upload:
+  - text: "Yes"
+  utter_faq-lecture/download-lecture:
+  - text: "Yes, open the video and click on more option (three dots). then click on "download"."
 
 # to handle low confidence answers
   utter_please_rephrase:
