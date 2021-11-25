@@ -45,7 +45,27 @@ pipeline:
   - name: ResponseSelector
     epochs: 100
     retrieval_intent: faq-course
-    
+
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-tatras
+
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-sabudh
+
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-mentor
+
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-guftagu
+  
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-lecture
+
   - name: FallbackClassifier
     threshold: 0.7
     ambiguity_threshold: 0.1

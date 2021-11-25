@@ -47,3 +47,30 @@ rules:
   steps:
   - intent: nlu_fallback
   - action: utter_please_rephrase
+
+# Date 25 Nov 2021
+
+- rule: Tatras specific questions
+  steps:
+  - intent: faq-tatras
+  - action: utter_faq-tatras
+
+- rule: Sabudh specific
+  steps:
+  - intent: faq-sabudh
+  - action: utter_faq-sabudh
+
+- rule: mentor specific
+  steps:
+  - intent: faq-mentor
+  - action: utter_faq-mentor
+
+- rule: mentor specific
+  steps:
+  - intent: faq-guftagu
+  - action: utter_faq-guftagu
+
+- rule: lecture regarding questions
+  steps:
+  - intent: faq-lecture
+  - action: utter_faq-lecture
