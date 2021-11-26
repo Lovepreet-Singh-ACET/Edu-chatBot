@@ -107,7 +107,7 @@ responses:
   utter_faq-course/course-categories:
   - text: "There are predefined categories for now total are 45 in which there are major categories and some are children of the major."
   utter_faq-course/subscribed-courses:
-  - text: "From the "courses" option."
+  - text: "From the courses option."
   utter_faq-course/courses-rating:
   - text: "Yes"
   # Date 25 Nov 2021
@@ -151,7 +151,7 @@ responses:
   utter_faq-mentor/other-mentor-help:
   - text: "If mentor allows you and he/she have some extra time for you then, Yes you can."
   utter_faq-guftagu/location:
-  - text: "At the top menu of educollab screen you will see a tab named "guftagu". click on that and use chat facility of educollab."
+  - text: "At the top menu of educollab screen you will see a tab named 'guftagu'. click on that and use chat facility of educollab."
   utter_faq-guftagu/purpose:
   - text: "guftagu is a tab where students & mentors can chat and discuss matters here."
   utter_faq-guftagu/friend-request:
@@ -166,7 +166,7 @@ responses:
   - text: "Only the admin can"
   utter_faq-guftagu/group-member-imit:
   - text: "No limit"
-  utter_faq-guftagu/friend-request:
+  utter_faq-guftagu/find-friend-request:
   - text: "From the search bar appearing on top on Guftagu page"
   utter_faq-guftagu/chat:
   - text: "No"
@@ -181,15 +181,15 @@ responses:
   utter_faq-guftagu/search-user:
   - text: "From the search bar appearing on top on Guftagu page"
   utter_faq-lecture/lecture-resources:
-  - text: "Go into video tab, at the bottom of video you will see "Resources" option. Click on that option and you will see the resources. "
+  - text: "Go into video tab, at the bottom of video you will see 'Resources' option. Click on that option and you will see the resources. "
   utter_faq-lecture/resource-notfound:
   - text: "Drop a mail at nampreet@sabudh.org or eknoor.k@sabudh.org / reach out to the mentor who took the lecture."
   utter_faq-lecture/lecture-assesment:
-  - text: "Go to the course that you have subscribed, then open the video under which assessment is assigned. click on the "assessment" button given at the bottom of video. you will see the assessment."
+  - text: "Go to the course that you have subscribed, then open the video under which assessment is assigned. click on the 'assessment' button given at the bottom of video. you will see the assessment."
   utter_faq-lecture/notes-upload:
   - text: "Yes"
   utter_faq-lecture/download-lecture:
-  - text: "Yes, open the video and click on more option (three dots). then click on "download"."
+  - text: "Yes, open the video and click on more option (three dots). then click on 'download'."
 
 # to handle low confidence answers
   utter_please_rephrase:
