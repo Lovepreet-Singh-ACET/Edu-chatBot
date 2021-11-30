@@ -15,32 +15,32 @@ rules:
 - rule: ans to Faq's related to educollab
   steps:
   - intent: faq-edu
-  - action: utter_faq-edu
+  - action: faq_edu_custom
 
 - rule: ans to Faq's related to user profile
   steps:
   - intent: faq-profile
-  - action: utter_faq-profile
+  - action: faq_edu_custom
 
 - rule: ans to Faq's related to login/logout
   steps:
   - intent: faq-login
-  - action: utter_faq-login
+  - action: faq_edu_custom
 
 - rule: ans to Faq's related to courses
   steps:
   - intent: faq-course
-  - action: utter_faq-course
+  - action: faq_edu_custom
 
 - rule: ans to Faq's related to questions
   steps:
   - intent: faq-question
-  - action: utter_faq-question
+  - action: faq_edu_custom
 
 - rule: ans to Faq's related to mosiac
   steps:
   - intent: faq-mosaic
-  - action: utter_faq-mosaic
+  - action: faq_edu_custom
 
 # rule for fall back classifier
 - rule: Ask the user to rephrase whenever they send a message with low NLU confidence
@@ -53,24 +53,68 @@ rules:
 - rule: Tatras specific questions
   steps:
   - intent: faq-tatras
-  - action: utter_faq-tatras
+  - action: faq_edu_custom
 
 - rule: Sabudh specific
   steps:
   - intent: faq-sabudh
-  - action: utter_faq-sabudh
+  - action: faq_edu_custom
 
 - rule: mentor specific
   steps:
   - intent: faq-mentor
-  - action: utter_faq-mentor
+  - action: faq_edu_custom
 
 - rule: mentor specific
   steps:
   - intent: faq-guftagu
-  - action: utter_faq-guftagu
+  - action: faq_edu_custom
 
 - rule: lecture regarding questions
   steps:
   - intent: faq-lecture
-  - action: utter_faq-lecture
+  - action: faq_edu_custom
+
+# Rules realted to Machine Learning bot
+- rule: ans Faq's related to logistic regression
+  steps:
+  - intent: faq-logistic
+  - action: utter_link
+  - action: utter_faq-logistic
+  - action: utter_did_that_help
+
+- rule: ans Faq's related to svm
+  steps:
+  - intent: faq-svm
+  - action: utter_link
+  - action: faq_edu_custom
+  - action: utter_did_that_help
+
+- rule: ans Faq's related to linear regression
+  steps:
+  - intent: faq-linear
+  - action: utter_link
+  - action: faq_edu_custom
+  - action: utter_did_that_help
+
+- rule: ans Faq's related to decision tree
+  steps:
+  - intent: faq-decision
+  - action: utter_link
+  - action: faq_edu_custom
+  - action: utter_did_that_help
+
+- rule: if unable to unserstand
+  steps:
+  - intent: deny
+  - action: utter_no
+
+- rule: if get understand
+  steps:
+  - intent: affirm
+  - action: utter_happy
+
+- rule: rule for new retrivels
+  steps:
+  - intent: faq-new
+  - action: faq_edu_custom

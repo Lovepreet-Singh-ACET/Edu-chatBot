@@ -1773,3 +1773,926 @@ nlu:
     - on this portal can we download lectures on this platform
     - how to download lectures
     - is it possible to download edu-collab lecture's
+
+# Naman and Nisha data For Machine Learning BOT
+
+- intent: faq-logistic/about
+  examples: |
+    - logistic regression meaning?
+    - what is logistic regression in ai?
+    - what is logistic regression in artificial intelligence?
+    - what is logistic regression in machine learning?
+    - what is logistic regression in artificial intelligence?
+    - define logistic regression in artificial intelligence .
+    - Define  logistic regression in machine learning?
+    - meaning of logistic regression?
+    - what is meaning of logistic regression?
+    - why do we need logistic regression?
+    - meaning of logistic regression in ai?
+    - meaning of logistic regression in artificial i ?
+    - meaning of logistic regression in ml?
+    - meaning of logistic regression in machine learning?
+    - definition of  logistic regression
+    - definition of  logistic regression in ml?
+    - definition of  logistic regression in machine learning?
+    - express in words logistic regression
+    - put into words logistic regression
+    - clarify logistic regression
+    - clear up logistic regression
+    - tell me about logistic regression
+    - definition of  logistic regression in ai?
+    - definition of  logistic regression in artificial intelligence 
+    - explain logistic regression?
+    - describe logistic regression
+    - give the meaning of logistic regression
+
+- intent: faq-logistic/diff
+  examples: |
+    - diff bw logistic regression and linear regression
+    - tell me difference in linear and logistic regression
+    - difference between logistic regression and linear regression
+    - difference between logistic regression and linear regression
+    - what is  difference between logistic regression and linear regression
+    - explain  difference between logistic regression and linear regression
+    - what is difference in logistic regression and linear regression
+    - dissimilarity between logistic regression and linear regression
+    - Distinction between logistic regression and linear regression
+    - give distinction between logistic regression and linear regression
+    - give distinction between logistic regression and linear regression in machine learning?
+    - give distinction between logistic regression and linear regression in artificial intelligence?
+    - give distinction between logistic regression and linear regression in ml?
+    - give distinction between logistic regression and linear regression in ai ?
+    - can you tell me difference in linear and logistic regression
+    - Please tell me difference in linear and logistic regression
+    - pls help me with the difference in linear and logistic regression
+    - pls help me with the linear and logistic regression
+    - explain linear and logistic regression
+    - can you help me with the difference in linear and logistic regression
+
+
+- intent: faq-logistic/log_curve
+  examples: |
+    - explain curved line for logistic regression instead of a straight line?
+    - why we have curve for logistic regression instead of a straight line?
+    - Why do we have a curved line for logistic regression?
+    - tell me why we have a curved line for logistic regression?
+    - can you tell me why do we have a curved line for logistic regression instead of a straight line?
+    - curved line for logistic regression instead of a straight line
+    - describe briefly why we have curve for logistic regression instead of a straight line?
+    - briefly explain why we have curve for logistic regression instead of a straight line?
+    - why the graphs have curve for logistic regression instead of a straight line?
+    - why logistic regression have curve line instead of a straight line?
+    - justify why do we have a curved line for logistic regression instead of a straight line?
+    - demonstrate why do we have a curved line for logistic regression instead of a straight line?
+    - logistic regression have curved line why?
+    - pls help me with why do we have a curved line for logistic regression instead of a straight line?
+    - please help me with why do we have a curved line for logistic regression
+    - pls help me with why do we have a curved line for logistic regression
+    - please  describe me why do we have a curve line for logistic regression
+    - please explain  me why do we have a curve line for logistic regression
+    - why logistic regression makes curve line
+
+
+- intent: faq-logistic/sigmoid
+  examples: |
+    - define Sigmoid Function?
+    - explain in breif about Sigmoid Function?
+    - describe Sigmoid Function?
+    - tell me about Sigmoid Function
+    - help me with Sigmoid Function
+    - Sigmoid Function
+    - explain in detail about Sigmoid Function?
+    - can you help me with Sigmoid Function?
+    - briefly explain Sigmoid Function
+    - express in words about Sigmoid Function
+    - put into words about Sigmoid Function
+    - clarify Sigmoid Function
+    - can you help me with Sigmoid Function
+    - please help me with Sigmoid Function
+    - meaning of Sigmoid Function
+    - clear up Sigmoid Function
+    - defination of Sigmoid Function
+    - why do we need Sigmoid Function
+    - give the defination of Sigmoid Function
+    - tell me about Sigmoid Function in logistic regression
+    - help me with Sigmoid Function in logistic regression
+    - Sigmoid Function in logistic regression
+    - explain in detail about Sigmoid Function in logistic regression
+    - can you help me with Sigmoid Function in logistic regression
+    - briefly explain Sigmoid Function in logistic regression
+    - express in words about Sigmoid Function in logistic regression
+    - put into words about Sigmoid Function in logistic regression
+    - clarify Sigmoid Function in logistic regression
+
+
+- intent: faq-logistic/sigmoid_formula
+  examples: |
+    - formula of the logistic sigmoid function
+    - formula of sigmoid function
+    - explain formula of sigmoid function
+    - what is the formula of logistic sigmoid function
+    - give the formula of sigmoid function
+    - define the formula of sigmoid function
+    - briefly explain formula of sigmoid function
+    - can you tell me formula of sigmoid function
+    - give the explaination of the formula of sigmoid function
+    - call off formula of sigmoid function
+    - please help me with the formula of sigmoid function
+    - how formula of sigmoid function works
+    - describe briefly the formula of sigmoid function
+    - please explain formula of sigmoid function
+    - tell the formula of sigmoid function
+    - express the formula of sigmoid function
+    - can you help me with the formula of sigmoid function
+    - calculation of logistic sigmoid function
+    - explain the formula of logistic sigmoid function
+    - give the formula of logistic sigmoid function
+    - the formula of logistic sigmoid function
+    - the formula of logistic function
+    - call off the formula of logistic sigmoid function
+    - demonstrate the formula of logistic sigmoid function
+    - express into words the formula of logistic sigmoid function
+    - justify the formula of logistic sigmoid function
+    - the formula of logistic sigmoid function
+    - the formula of logistic sigmoid function
+
+
+- intent: faq-logistic/log_loss
+  examples: |
+    - Explain log loss
+    - Meaning of log loss
+    - What is the meaning of log loss
+    - Clear up log loss
+    - Tell me about log loss
+    - Definition of log loss
+    - Define log loss in AI
+    - What exactly is a log loss
+    - Explain In detail log loss
+    - Clarify log loss
+    - Describe log loss
+    - Why do we need log loss
+    - Briefly explain log loss
+    - Give a detailed summary of log loss
+    - Give the meaning of log loss
+    - What does log loss mean
+    - log loss meaning? 
+    - What is the meaning of log loss
+    - Put into words log loss
+    - Express in words log loss
+    - Definition of log loss in AI
+    - What is log loss in Artificial intelligence
+    - Give a detailed meaning of log loss
+    - Define log loss completely
+    - purpose of log loss
+
+
+- intent: faq-logistic/loss_func
+  examples: |
+    - Meaning of loss function In logistic regression
+    - Define loss function for logistic regression
+    - Explain in detail loss function for logistic regression
+    - Explain breifly loss function for logistic regression
+    - Write about loss function for logistic regression
+    - Tell me about loss function for logistic regression
+    - Clarify loss function for logistic regression
+    - loss function for logistic regression meaning
+    - What exactly is a loss function for logistic regression
+    - Define loss function for logistic regression in detail
+    - Why do we need loss function for logistic regression
+    - What is the purpose of loss function in logistic regression
+    - Purpose of loss function for logistic regression
+    - Define completely loss function for logistic regression
+    - Explain in depth loss function for logistic regression
+    - Give details about loss function for logistic regression
+    - Give your views about loss function for logistic regression
+    - Meaning of loss function for logistic regression
+
+
+- intent: faq-logistic/types
+  examples: |
+    - Write the types of logistic regression
+    - Write down the types of logistic regression
+    - Explain the types of logistic regression
+    - Define the types of logistic regression
+    - Explain the types of logistic regression
+    - Tell me the types of logistic regression
+    - List the types of logistic regression
+    - Types of logistic regression
+    - List down the types of logistic regression
+    - Tell the types of logistic regression
+    - The types of logistic regression
+    - logistic regression types
+    - logistic regression types explanation
+    - Describe the types of logistic regression
+    - Give the types of logistic regression
+    - Provide the types of logistic regression
+    - Classification of logistic regression
+    - Different kind of logistic regression
+    - List the different types of logistic regression
+    - Discuss the types of logistic regression
+    - Write the types of logistic regression
+    - Write down the types of logistic regression
+    - Explain the types of logistic regression
+    - Define the types of logistic regression
+
+
+- intent: faq-logistic/activation_func
+  examples: |
+    - Explain activation function and it's uses
+    - Define an activation function and why to use them
+    - What is the meaning of activation function and explain it's uses
+    - Why do we need activation function
+    - Define activation function and it's uses
+    - What is the purpose of an activation function? Write any three uses
+    - Meaning of activation function and it's uses
+    - Express in words an activation function. 
+    - Clarify activation function. Why do we use it
+    - Tell me about activation function. Why do need it? 
+    - Activation function meaning and necessity
+    - What is an activation function. Also explain it's importance 
+    - Give a complete description of an activation function and why do we use it? 
+    - Explain in detail an activation function. What is the use of an activation function? 
+    - Define activation function. Why is it necessary in AI
+    - What is the use of an activation function in AI? Explain in detail
+    - Definition of activation function. Why do we need it
+    - Clear up activation function. Why do we use it
+    - Explain activation function an it's importance in AI
+    - Meaning of activation function in AI. Why do we use it? 
+    - Explain activation function and it's necessity in AI
+    - Why do we need activation function. Also explain it's necessity in AI
+    - Importance of activation function in AI
+    - Put into words activation function and it's need
+    - What is the need of using an activation function? 
+ 
+- intent: faq-logistic/mle
+  examples: |
+    - Explain Maximum Likelihood Estimation
+    - Define Maximum Likelihood Estimation
+    - Describe Maximum Likelihood Estimation
+    - Clarify Maximum Likelihood Estimation
+    - Clear up Maximum Likelihood Estimation
+    - Describe in detail Maximum Likelihood Estimation
+    - Clearly explain Maximum Likelihood Explanation
+    - Define the Maximum Likelihood Estimation
+    - Purpose of Maximum Likelihood Estimation
+    - Describe briefly Maximum Likelihood Estimation
+    - Define Maximum Likelihood Estimation in AI
+    - Define Maximum Likelihood Estimation in logistic regression
+    - Tell me about Maximum Likelihood Estimation
+    - Give a detailed explanation of Maximum Likelihood Estimation
+    - Write about Maximum Likelihood Estimation
+    - Tell about Maximum Likelihood Estimation
+    - Completely define Maximum Likelihood Estimation
+    - Give explanation about Maximum Likelihood Estimation
+    - What is meant by Maximum Likelihood Estimation
+    - Maximum Likelihood Estimation meaning
+    - What does Maximum Likelihood Estimation mean
+    - Give details about Maximum Likelihood Estimation
+    - What does Maximum Likelihood Estimation mean in artificial intelligence
+    - Definition of Maximum Likelihood Estimation
+    - Give a well defined view of Maximum Likelihood Estimation
+    - Meaning of Maximum Likelihood Estimation in AI
+    - Meaning of Maximum Likelihood Estimation in logistic regression
+  
+- intent: faq-svm/about
+  examples: |
+    - define svm?
+    - explain support vector machine
+    - help me with svm
+    - what is support vector machine?
+    - define support vector machine
+    - can you tell me what is support vector machine
+    - what is svm?
+    - can you tell me about support vector machine
+    - please help me with support vector machine
+    - can you help me with support vector machine
+    - support vector machine
+    - explain in breif support vector machine
+    - give me details about support vector machine
+    - explain some points on support vector machine
+    - explain in detail support vector machine
+    - support vector machine definition
+    - support vector machine role in machine learning
+    - support vector machine is a ?
+    - defination of SVM
+    - details on SVM
+    - explain SVM
+    - explain in detail SVM
+    - meaning of SVM
+    - tell me about SVM
+    - can you help me with SVM
+    - can you tell me about SVM
+    - please help me with SVM
+    - explain in breif SVM
+    - give me details about SVM
+    - SVM role in machine learning
+    - meaning of support vector machine
+    - SVM in ai
+    - svm in machine learning
+    - svm in ml
+    - what is role of svm in machine learning
+    - define svm in machine learning
+    - define support vector machine in machine learning
+    - explain support vector machine in machine learning
+    - give me details about support vector machine
+    - explain svm in artificial intelligence 
+    - 
+- intent: faq-svm/hyperparameter
+  examples: |
+    - tune hyperparameter in svm
+    - hyperparameter in svm
+    - help me with hyperparameter of svm
+    - can u tell me how to tune hyperparameter in svm
+    - can you tell me how to tune hyperparameter in support vector machine?
+    - how to use hyperparameter in support vector machine
+    - explain how to use hyperparameter in support vector machine
+    - in support vector machine how to tune hyperparameter
+    - in support vector machine how to use hyperparameters
+    - in support vector machine explain how hyperparameter works
+    - in support vector machine explain how hyperparameter get tune
+    - help me in support vector machine how to tune hyperparameters
+    - please tell me how support vector machine use hyperparameters
+    - in support vector machine what is role of hyperparameter
+    - hyperparameter role in support vector machine
+    - what is support vector machine hyperparameter tuning
+    - expain in detail how to tune hyperparameter in support vector machine
+    - expain in detail how to tune hyperparameter in svm in machine learning
+    - give me details about support vector machine hyperparameter tuning
+    - support vector machine (svm) hyperparameter tuning
+    - how to use hyperparameter in support vector machine
+    - explain how to use hyperparameter in svm
+    - in svm how to tune hyperparameter
+    - in svm how to use hyperparameters
+    - in svm explain how hyperparameter works
+    - in svm explain how hyperparameter get tune
+    - help me in svm how to tune hyperparameters
+    - please tell me how svm use hyperparameters
+    - in svm what is role of hyperparameter
+    - hyperparameter role in svm in ai
+    - what is svm hyperparameter tuning in ml
+    
+- intent: faq-svm/hinge
+  examples: |
+    - define hinge loss
+    - what is hinge loss
+    - explain hinge loss
+    - please tell me what is hinge loss
+    - what is hinge loss in svm
+    - what is hinge loss in ml
+    - what is hinge loss in svm in machine learning
+    - hinge loss
+    - hinge loss in svm
+    - hinge loss in ml
+    - hinge loss in artificial intelligence
+    - hinge loss in support vector machine
+    - give me defination of hinge loss
+    - please tell me about hinge loss
+    - please tell me about what is hinge loss
+    - please tell me what is hinge loss in support vector machine
+    - please tell me what is hinge loss in machine learning
+    - what is hinge loss in support vector machine
+    - help me with hinge loss
+    - help me with the hinge loss in support vector machine
+    - meaning of hinge loss
+    - explain some points on hinge loss
+    - give me details about hinge loss
+    - can you tell me about hinge loss
+    - hinge loss
+    - explain in breif hinge loss
+    - in support vector machine what is role of hinge loss
+    - in svm how to use hinge loss
+    - hinge loss role in support vector machine
+
+- intent: faq-svm/polynomial 
+  examples: |
+    -   what is polynomial kernel
+    - define polynomial kernel
+    - explain polynomial kernel
+    - please tell me what is polynomial kernel
+    - what is polynomial kernel in svm
+    - what is polynomial kernel in svm in machine learning
+    - give me defination of polynomial kernel
+    - what is polynomial kernel in support vector machine
+    - help me with polynomial kernel
+    - help me with the polynomial kernel  in support vector machine
+    - meaning of polynomial kernel
+    - explain in breif polynomial kernel
+    - in support vector machine what is role of polynomial kernel
+    - in svm how to use polynomial kernel
+    - polynomial kernel in ml
+    - polynomial kernel in svm
+    - polynomial kernel in support vector machine
+    - please tell me what is polynomial kernel in support vector machine
+    - please tell me what is polynomial kernel in machine learning
+    - please tell me about what is polynomial kernel
+    - tell me about what is polynomial kernel
+    - please help me with polynomial kernel
+    - can you tell me about polynomial kernel
+    - give me details about polynomial kernel
+    - polynomial kernel
+    - explain how to use polynomial kernel
+
+- intent: faq-svm/regression
+  examples: |
+    - what is svm regression
+    - explain svm regression
+    - define svm regression
+    - please tell me what is svm regression
+    - give me defination of svm regression
+    - help me with svm regression
+    - meaning of svm regression
+    - explain in breif svm regression
+    - what is role of svm regression
+    - how to use svm regression
+    - please tell me about what is svm regression
+    - tell me about what is svm regression
+    - please help me with svm regression
+    - can you tell me about svm regression
+    - give me details about svm regression
+    - explain how to use regression in svm
+    - svm regression
+    - support vector machine regression
+    - what is support vector machine regression
+    - explain support vector machine regression
+    - define support vector machine regression
+    - please tell me what is support vector machine regression
+    - help me with support vector machine regression
+    - meaning of support vector machine regression
+    - explain in breif support vector machine regression
+    - what is role of support vector machine regression
+    - how to use support vector machine regression
+    - please tell me about what is support vector machine regression
+
+- intent: faq-svm/diff
+  examples: |
+    - difference between logistic regression and svm
+    - explain the difference between logistic regression and svm
+    - what is the difference between logistic regression and svm
+    - please tell me what is the difference between logistic regression and svm
+    - give me the difference between logistic regression and svm
+    - help me with the difference between logistic regression and svm
+    - explain in brief what's the difference in logistic regression and svm
+    - tell me about what is the difference between logistic regression and svm
+    - can you tell me the difference between logistic regression and svm
+    - give me details about difference in logistic regression and svm
+    - differentiate between logistic regression and svm
+    - dissimilarity between logistic regression and svm
+    - differentiation between logistic regression and svm
+    - contrast between logistic regression and svm
+    - dissimilarity in logistic regression and svm
+    - difference between logistic regression and support vector machine
+    - explain the difference between logistic regression and support vector machine
+    - what is the difference between logistic regression and support vector machine
+    - dissimilarity between logistic regression and support vector machine
+    - please tell me what is the difference between logistic regression and support vector machine
+    - contrast between logistic regression and support vector machine
+    - give me the difference between logistic regression and support vector machine
+    - help me with the difference between logistic regression and support vector machine
+    - explain in brief what's the difference in logistic regression and support vector machine
+    - tell me about what is the difference between logistic regression and support vector machine
+    - give me details about difference between logistic regression and support vector machine
+    - differentiate between logistic regression and support vector machine
+    - what is  logistic regression and svm
+    - what is  logistic regression and support vector machine
+
+- intent: faq-svm/hard_soft
+  examples: |
+    -   what is Hard Margin SVM and Soft Margin SVM
+    - explain the difference between Hard Margin SVM and Soft Margin SVM
+    - difference between Hard Margin SVM and Soft Margin SVM
+    - tell me about what is the difference between Hard Margin SVM and Soft Margin SVM
+    - give me the difference between Hard Margin SVM and Soft Margin SVM
+    - help me with the difference between Hard Margin SVM and Soft Margin SVM
+    - can you tell me the difference between Hard Margin SVM and Soft Margin SVM
+    - give me details about Hard Margin SVM and Soft Margin SVM
+    - explain in brief what's the difference in Hard Margin SVM and Soft Margin SVM
+    - dissimilarity between Hard Margin SVM and Soft Margin SVM
+    - differentiate between Hard Margin SVM and Soft Margin SVM
+    - contrast between Hard Margin SVM and Soft Margin SVM
+    - explain Hard Margin SVM and Soft Margin SVM
+    - please tell me what is Hard Margin SVM and Soft Margin SVM
+    - tell me about what is Hard Margin SVM and Soft Margin SVM
+    - please help me with Hard Margin SVM and Soft Margin SVM
+    - can you tell me about Hard Margin SVM and Soft Margin SVM
+    - give me details about Hard Margin SVM and Soft Margin SVM
+    - Hard Margin support vector machine and Soft Margin support vector machine
+    - explain Hard Margin SVM
+    - define Hard Margin SVM
+    - tell me about what is Hard Margin SVM
+    - explain Soft Margin SVM
+    - define Soft Margin SVM
+    - tell me about what is Soft Margin SVM
+    - Soft Margin SVM
+    - what is Hard Margin support vector machine and Soft Margin support vector machine
+    - explain the difference between Hard Margin support vector machine and Soft Margin support vector machine
+    - difference between Hard Margin support vector machine and Soft Margin support vector machine
+    - tell me about what is the difference between Hard Margin support vector machine and Soft Margin support vector machine
+    - give me the difference between Hard Margin support vector machine and Soft Margin support vector machine
+    - differentiate between Hard Margin support vector machine and Soft Margin support vector machine
+    - please tell me what is Hard Margin support vector machine and Soft Margin support vector machine
+    - can you tell me about Hard Margin support vector machine and Soft Margin support vector machine
+
+- intent: faq-svm/kernel
+  examples: |
+    -   what is kernel in svm
+    - define kernel in svm
+    - explain kernel in svm
+    - help me with the kernel in svm
+    - can you help me with kernel in svm
+    - can you tell me what is kernel in svm
+    - can you tell me about kernel in svm
+    - please help me with kernel in svm
+    - explain in breif kernel in svm
+    - give me details about kernel in svm
+    - explain in detail kernel in svm
+    - explain some points on kernel in svm
+    - kernel in svm definition
+    - what is role of kernel in svm
+    - kernel in ml
+    - kernel in machine learning
+    - kernels in svm
+    - kernels in support vector machine
+    - what is kernel in support vector machine
+    - explain kernel in support vector machine
+    - help me with the kernel in support vector machine
+    - can you help me with kernel in support vector machine
+    - please help me with kernel in support vector machine
+    - explain in breif kernel in support vector machine
+    - give me detail about kernels in support vector machine
+    - explain in detail kernel in support vector machine
+    - definition of kernel in support vector machine
+    - what is role of kernel in support vector machine
+    - usage of kernel in support vector machine
+    - why do we use kernel in support vector machine
+    - why do we need kernel in support vector machine
+    - use of kernel in support vector machine
+    - advantage of kernels in support vector machine
+    - how kernel is use in support vector machine
+    - how kernels is use in svm
+    - how kernel is use in svm in machine learning
+
+- intent: faq-svm/c
+  examples: |
+    - What is the role of C in SVM?
+    - how c is useful in svm
+    - what is the use of c in svm
+    - what is c in svm
+    - how c is used in svm
+    - role of c in svm
+    - why we use c in svm
+    - advantage of using c in svm
+    - how c in goona help us in svm
+    - uses of c in svm
+    - why do we use c in svm
+    - please help me with the role of C in SVM?
+    - how c is use in svm in machine learning
+    - how c is use in svm
+    - advantage of c in support vector machine
+    - can you help me with c in support vector machine
+    - please help me with kernel in support vector machine
+    - explain in breif role of c in support vector machine
+    - give me detail about role of c in support vector machine
+    - explain in detail role of c in support vector machine
+    - help me with the kernel in svm
+    - can you help me with role of c in svm
+    - can you tell me what is role of c in svm
+    - can you tell me about role of c in svm
+    - please help me with role of c in svm
+    - can you help me with role of c in support vector machine
+    - how c is useful in support vector machine
+    - what is the use of c in support vector machine
+    - what is c in support vector machine
+    - how c is used in support vector machine
+    - role of c in support vector machine
+    - why we use c in support vector machine
+    - advantage of using c in support vector machine
+    - how c in goona help us in support vector machine
+    - uses of c in support vector machine
+    - why do we use c in support vector machine
+
+- intent: faq-svm/large_margin
+  examples: |
+    - What is the intuition of a large margin classifier
+    - why we choose large margin classifier
+    - reason behind large margin classifier
+    - what is the reason of chossing large margin classifier
+    - what is the reason behind choosing large margin classifier
+    - intuition of large margin classifier
+    - how we get perception of using large margin classifier
+    - how we get perception of using large margin classifier in svm
+    - What is the intuition of a large margin classifier in svm
+    - What is the intuition of a large margin classifier in support vector machine
+    - why we choose large margin classifier in svm
+    - why we choose large margin classifier in support vector machine
+    - large margin classifier in support vector machine
+    - in support vector machine why we choose large margin classifier
+    - can you tell me what is role of large margin classifier
+    - how large margin classifier is useful
+    - advantage of using large margin classifier in support vector machine
+    - why do we use large margin classifier
+    - large margin classifier in goona help us in svm
+    - why do we need large margin classifier
+    - role of large margin classifier in svm
+    - please help me with large margin classifier in svm
+    - explain in breif role of large margin classifier
+    - why do we need large margin classifier in support vector machine
+    - why we feel to use large margin classifier in svm
+ 
+- intent: faq-linear/about
+  examples: |
+    - explain the term linear regression
+    - explain the term linear regression
+    - define linear regression algorithm in machine learning
+    - What do you understand by linear regression
+    - What is the concept of linear regression
+    - linear regression algorithm explaination
+    - definition of linear regression
+    - linear regression algorithm explaination in artificial intelligence-
+    - use of linear regression in machine learning
+    - explaination of linear regression algorithm
+    - what do you mean by linear regression algorithm
+    - tell me the definition of linear regression
+    - how can we define linear regression in AI
+    - what is the use of linear regression in machine learning
+    - state linear regression in machine learning
+    - tell me about linear regression algorithm
+    - explaination of linear regression in detail
+    - brief understanding of linear regression in machine learning
+    - detailed explaination of linear regression in AI
+    - advantage of using linear regression algorithm
+    - at what places we can apply linear regression
+    - where to use linear regression algorithm
+    - everything about linear regression algorithm
+    - how can we apply linear regression using python
+    - elaborate linear regression
+
+- intent: faq-linear/difference-LiR_LoR
+  examples: |
+    - how is linear regression different from logistic regression
+    - compare linear and logistic regression
+    - tell me the differences between linear and logistic regression in AI
+    - distinguish between linear regression and logistic regression
+    - how can you differentiate logistic regression from linear regression
+    - comparison of linear and logistic regression in ML
+    - differ linear regression from logistic regression
+    - different ways by which we can differentiate linear regression and logistic regression
+    - differentiate linear regression algorithm from logistic regression
+    - what are the factors that distinguish logistic regression from linear regression
+    - linear regression vs logistic regression
+    - detailed comparison of logistic over linear regression
+    - factors that distinguish linear from logistic regression
+    - explain the difference between linear regression and logistic regression
+    - in what ways linear and logistic regression are different
+    - different ways to distinguish linear and logistic regression
+    - it would be really helpful if you could tell me the difference between linear and logistic regression
+    - could you please differentiate between linear and logistic regression
+
+- intent: faq-linear/assumptions_Li
+  examples: |
+    - what are the assumptions we take in linear regression algorithm
+    - how many assumtions we take in linear regression
+    - tell me the assumptions of linear regression algorithm in ML
+    - assupmtions of linear regression algorithm
+    - describe the assumtions we take in linear regression
+    - explain the various assumptions of linear regression
+    - why we take assumptions in linear regression algorithm
+    - reason for using assumptions in linear regression
+    - various assumptions that we use in linear regression
+    - detailed explaination of all the assumptions in linear regression
+    - linear regression assumptions in AI
+    - help me with the assumtions of linear regression
+    - important assumptions we take in linear regression algorithm
+    - do you know the assumptions of linear regression
+
+- intent: faq-linear/normal_dist_Li
+  examples: |
+    - what are the assumptions we take in linear regression algorithm
+    - how many assumtions we take in linear regression
+    - tell me the assumptions of linear regression algorithm in ML
+    - assupmtions of linear regression algorithm
+    - describe the assumtions we take in linear regression
+    - explain the various assumptions of linear regression
+    - why we take assumptions in linear regression algorithm
+    - reason for using assumptions in linear regression
+    - various assumptions that we use in linear regression
+    - detailed explaination of all the assumptions in linear regression
+    - linear regression assumptions in AI
+    - help me with the assumtions of linear regression
+    - important assumptions we take in linear regression algorithm
+    - do you know the assumptions of linear regression
+    - why we use normal distribution in linear regression
+    - what kind of distribution we use in linear regression
+    - which curve is followed by linear regression algorithm
+    - linear regression follows which kind of distribution
+    - distribution followed by linear regression in ML
+    - what is the curve we use in linear regression algorithm
+    - explain the curve of linear regression model
+    - describe the distribution followed by linear regression model
+    - explain about linear regression curve
+    - can you help me to know about the distribution curve of linear regression
+    - please give information about the linear regression curve
+
+- intent: faq-linear/cost_func
+  examples: |
+    - define cost function
+    - what do you mean by cost function
+    - why do we use cost function
+    - where we can apply cost function
+    - use of cost function in ML algorithm
+    - explain cost function in AI
+    - state cost function
+    - purpose of using cost function in ML algorithms
+    - how to implement cost function
+    - elaborate cost function in detail
+    - complete understanding of cost function
+    - how can we apply cost function
+    - help me with cost function in machine learning
+
+- intent: faq-linear/gradient_descent
+  examples: |
+    - explain gradient descent algorithm
+    - where do we use gradient descent algorithm
+    - what is the purpose of gradient descent
+    - help me in understanding gradient descent algorithm
+    - why do we use gradient descent in ML
+    - reason to use gradient descent algorithm
+    - what is the purpose of using gradient descent algorrithm in AI
+    - how to use gradient descent algorithm
+    - explain in detail about the gradient detail algorithm
+    - gradient descent algorithm in machine learning
+    - describe about gradient descent
+    - what is the functioning of gradient descent algorithm
+    - concept of using gradient descent algorithm
+
+- intent: faq-linear/cost_func_type_Li
+  examples: |
+    - explain the cost function we use in linear regression model
+    - what is the cost function of linear regression
+    - describe cost function in linear regression model
+    - define the cost function of linear regression model
+    - could you please tell me about the cost function for linear regression
+    - what type of cost function is used in linear regression
+    - explain cost function used in linear regression
+    - can u help me with the cost function used in linear regression
+
+- intent: faq-linear/cost_func_derivative_Li
+  examples: |
+    - tell me the derivative of cost function in linear regression model
+    - how do we derive the cost function of linear regression model
+    - derivation of cost function in linear regression model
+    - what is the way to use cost function derivation of linear regression-
+    - in linear regression where do we use the derivation of cost function
+    - why there is need to derive cost function in linear regression
+    - how do we use the cost function derivation in linear regression
+    - ways by which we can derive the cost function of linear regression
+    - explain in detail how to derive linear regression cost function
+    - purpose of deriving cost function of linear regression
+
+- intent: faq-linear/noise_dist_Li
+  examples: |
+    - noise in linear regression
+    - tell me about the distribution of noise in linear regression
+    - what is the function of noise in linear regression
+    - what is the significance of noise in linear regression
+    - why do we use noise in linear regression
+    - is noise in linear regression follows normal distribution
+    - purpose of using noise in linear regression
+    - what is the advantage of using noise in linear regression
+    - how do we use noise in linear regression
+    - when do we use noise in linear regression
+    - what is noise
+    - what is error function in linear regression
+    - what do you mean by noise
+    - advantage of using error function in linear function
+    - how is the outcome of linear regression changes after using error function
+    - in what way we can use error function in linear regression
+    - where do we use noise in linear regression algorithm
+    - why do we use normal distribution in error function of linear regression
+
+- intent: faq-linear/ridge_lasso
+  examples: |
+    - explain ridge and lasso regression
+    - why do we use ridge and lasso regression in linear regression
+    - where do we use ridge and lasso regression
+    - what is the purpose of using ridge and lasso regression
+    - what is ridge regression
+    - tell me about lasso regression
+    - how we implement ridge and lasso regression in AI
+    - purpose of using ridge and lasso regression
+    - what are the uses of ridge and lasso regression
+    - why there is need to use ridge and lasso regression in linear regression
+    - elaborate about ridge and lasso regression in machine learning
+
+- intent: faq-decision/definition
+  examples: |
+    - explain decision tree algorithm
+    - under which category decisionTree falls
+    - decisioon trees are suitable for
+    - decisioon tree explaination
+    - in which problem do we use decision tree
+    - define categories of problems thart can be solved by decision tree
+    - define decision tree in machine learning
+    - meaning of decison tree
+    - what do you mean by of desision tree
+    - why do we need decison tree
+    - meaning of decison tree in AI
+    - what kind of problems can be solved using decision tree algorithm
+    - brief statement on decision tree
+    - state decision tree algorithm in machine learning
+    - help me in understanding decision tree algorithm
+    - describe decision tree
+    - illustrate the meaning of decision tree
+    - what is the concept of decision tree
+    - how can we define decision tree algorithm
+    - what do you understand by decision tree
+    - give explaination of decision tree algorithm
+    - how can we use decision tree algorithm
+    - how to explain decision tree algorithm
+    - discuss decision tree algorithm in ML
+    - do you know what decision tree is
+    - decision tree algorithm definition in detail
+    - help me in understanding decision tree algorithm
+
+- intent: faq-decision/types
+  examples: |
+    - what are the different types of decision tree
+    - explain the classification of decision tree
+    - decision trees are classified into 
+    - types of decision tree and their explaination
+    - meaning of decision tree types
+    - different types of decision tree algorithm
+    - what are the categories of decision tree
+    - define the types of decision tree in detail
+    - throw some light on decision tree classification
+    - decision tree types in detail
+    - classification of decision tree and their explaination
+    - what do you mean my decision tree classification
+    - describe the classification of decision tree
+    - what do you understand my decision tree types
+    - can you help me with the classification of decision tree types
+    - please tell me about the different types of decision tree algorithm in AI
+    - give me some points on decision tree types
+    - classify decision tree algorithm in machine learning
+    - help me in understanding the types of decision tree algorithm
+    - how is decision tree classified
+
+- intent: faq-decision/chaid
+  examples: |
+    - tell me what is CHAID in decision tree
+    - help me to understand CHAID decision tree
+    - what is the meaning of CHAID
+    - do you know what is CHAID in decision tree
+    - what is CHAID in decision tree
+    - explain the CHAID decision tree type
+    - describe CHAID in detail
+    - give some explaination on chaid decision tree
+    - meaning of chaid decision tree
+    - define CHAID decision tree type
+    - clarification on chaid decision tree
+    - CHAID decision tree
+    - what do you understand by chaid in decision tree
+    - what is the use of CHAID in decision tree
+    - why decision tree is classified into CHAID
+    - where to use chaid decision tree algorithm
+    - how to define CHAID decision tree
+    - illustrate CHAID decision tree in detail
+    - what is chaid decision tree algorithm
+
+- intent: faq-decision/cart
+  examples: |
+    - tell me what is CART in decision tree
+    - please explain about CART decision tree
+    - describe about CART decision tree
+    - what is cart decision tree
+    - throw some light on CART decision tree
+    - do you know what CART is
+    - explain the meaning of cart decision tree algorithm
+    - discuss about CART decision tree
+    - CART decision tree in machine learning
+    - what is the use of CART decision tree
+    - define cart decision tree
+    - how to define CART decision tree
+    - explain everything about CART decision tree
+    - what do you know about CART
+    - tell me everything about cart decision tree
+    - what is CART 
+    - details on cart decision tree
+    - everything about CART decision tree
+
+- intent: faq-decision/derivation
+  examples: |
+    - different algorithms to derive decision tree
+    - some popular algorithms to derive decision tree
+    - what are the algorithms that can be used to derive decision tree along with their attribute selection measures
+    - help me to know about the algorithms that can be used to derive decision tree with their attribute selection measures
+    - explain about the algorithms which can be applied to derive decision tree
+    - algorithms to derive decision tree
+    - tell me about some popular algorithms to derive decision tree
+    - decision tree can be derived from which algorithms
+    - from what algorithms we can derive decision tree with their attribute selection measures
+    - what are the various algorithms to derive decision tree
+    - please help me to know about the algorithms which can be used to derive decision tree
+    - algorithms that can be used to deive decision tree
+    - do you know what are the algorithms which can be used to derive decision tree
+    - help me in understanding about the algorithms that is used to derive decision tree along with their attribute selection measures
+    - decision tree derivation through various algorithms

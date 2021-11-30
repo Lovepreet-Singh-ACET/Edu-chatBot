@@ -19,6 +19,14 @@ intents:
   - faq-mentor
   - faq-guftagu
   - faq-lecture
+  - faq-logistic
+  - faq-svm
+  - logistic_reg
+  - linear_reg
+  - faq-new
+
+actions:
+  - faq_edu_custom
 
 responses:
   utter_greet:
@@ -191,6 +199,82 @@ responses:
   utter_faq-lecture/download-lecture:
   - text: "Yes, open the video and click on more option (three dots). then click on 'download'."
 
+# responses realted to machine learning bot
+  utter_link:
+  - text: "Here is the link to solution regarding your query:"
+  utter_no:
+  - text: "Refer to your mentor for more help"
+  utter_faq-logistic/about:
+  # - text: "https://www.tutorialspoint.com/machine_learning_with_python/machine_learning_with_python_classification_algorithms_logistic_regression.htm"
+  - text: " Here you go [click!!](https://www.tutorialspoint.com/machine_learning_with_python/machine_learning_with_python_classification_algorithms_logistic_regression.htm)"
+  utter_faq-logistic/diff:
+  - text: "https://www.analyticsvidhya.com/blog/2021/05/logistic-regression-supervised-learning-algorithm-for-classification/"
+  utter_faq-logistic/log_curve:
+  - text: "https://www.analyticsvidhya.com/blog/2021/05/logistic-regression-supervised-learning-algorithm-for-classification/"
+  utter_faq-logistic/sigmoid:
+  - text: "https://programmathically.com/the-sigmoid-function-and-binary-logistic-regression/"
+  utter_faq-logistic/sigmoid_formula:
+  - text: "https://programmathically.com/the-sigmoid-function-and-binary-logistic-regression/"
+  utter_faq-logistic/log_loss:
+  - text: "https://www.analyticsvidhya.com/blog/2020/11/binary-cross-entropy-aka-log-loss-the-cost-function-used-in-logistic-regression/"
+  utter_faq-logistic/loss_func:
+  - text: "https://programmathically.com/the-sigmoid-function-and-binary-logistic-regression/"
+  utter_faq-logistic/types:
+  - text: "https://www.javatpoint.com/logistic-regression-in-machine-learning"
+  utter_faq-logistic/activation_func:
+  - text: "https://www.geeksforgeeks.org/activation-functions-neural-networks/"
+  utter_faq-logistic/mle:
+  - text: "https://machinelearningmastery.com/logistic-regression-with-maximum-likelihood-estimation/"
+  utter_faq-svm/about:
+  - text: "https://www.analyticsvidhya.com/blog/2017/09/understaing-support-vector-machine-example-code/"
+  utter_faq-svm/hyperparameter:
+  - text:  "https://towardsdatascience.com/hyperparameter-tuning-for-support-vector-machines-c-and-gamma-parameters-6a5097416167"
+  utter_faq-svm/hinge:
+  - text: "https://towardsdatascience.com/a-definitive-explanation-to-hinge-loss-for-support-vector-machines-ab6d8d3178f1"
+  utter_faq-svm/polynomial:
+  - text: "https://en.wikipedia.org/wiki/Polynomial_kernel"
+  utter_faq-svm/regression:
+  - text: "https://www.analyticsvidhya.com/blog/2020/03/support-vector-regression-tutorial-for-machine-learning/"
+  utter_faq-svm/diff:
+  - text: "https://www.geeksforgeeks.org/differentiate-between-support-vector-machine-and-logistic-regression/"
+  utter_faq-svm/hard_soft:
+  - text: "https://stackoverflow.com/questions/4629505/svm-hard-or-soft-margins/4630731"
+  utter_faq-svm/kernel:
+  - text: "https://medium.datadriveninvestor.com/support-vector-machines-important-questions-a47224692495"
+  utter_faq-svm/c:
+  - text: "https://medium.com/@pushkarmandot/what-is-the-significance-of-c-value-in-support-vector-machine-28224e852c5a"
+  utter_faq-svm/large_margin:
+  - text: "https://medium.com/analytics-vidhya/support-vector-machine-intuition-validate-with-maths-e10fb8cc7f57"
+  utter_faq-linear/about:
+  - text: "https://www.educative.io/edpresso/what-is-linear-regression?aid=5082902844932096&utm_source=google&utm_medium=cpc&utm_campaign=edpresso-dynamic&utm_term=&utm_campaign=Dynamic+-+Edpresso&utm_source=adwords&utm_medium=ppc&hsa_acc=5451446008&hsa_cam=8092184362&hsa_grp=86276435689&hsa_ad=397226000870&hsa_src=g&hsa_tgt=aud-597782228586:dsa-837376625453&hsa_kw=&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjws4aKBhDPARIsAIWH0JUBlvGrZV7Jedwh6H6uY2uzcK-Ggs1_IOCc6WKA51XVWs6z3yzPICcaAgkGEALw_wcB"
+  utter_faq-linear/difference-LiR_LoR:
+  - text: "https://techdifferences.com/difference-between-linear-and-logistic-regression.html"
+  utter_faq-linear/assumptions_Li:
+  - text: "https://towardsdatascience.com/assumptions-of-linear-regression-fdb71ebeaa8b"
+  utter_faq-linear/normal_dist_Li:
+  - text: "https://stats.stackexchange.com/questions/148803/how-does-linear-regression-use-the-normal-distribution/148812"
+  utter_faq-linear/cost_func:
+  - text: "https://towardsdatascience.com/machine-learning-fundamentals-via-linear-regression-41a5d11f5220"
+  utter_faq-linear/gradient_descent:
+  - text: "https://builtin.com/data-science/gradient-descent"
+  utter_faq-linear/cost_func_type_Li:
+  - text: "https://medium.com/@lachlanmiller_52885/understanding-and-calculating-the-cost-function-for-linear-regression-39b8a3519fcb"
+  utter_faq-linear/cost_func_derivative_Li:
+  - text: "https://rpubs.com/dnuttle/ml-linear-cost-func-derivative"
+  utter_faq-linear/noise_dist_Li:
+  - text: "https://www.rdatagen.net/post/linear-regression-models-assume-noise-is-independent/"
+  utter_faq-linear/ridge_lasso:
+  - text: "https://towardsdatascience.com/ridge-and-lasso-regression-a-complete-guide-with-python-scikit-learn-e20e34bcbf0b"
+  utter_faq-decision/definition:
+  - text: "http://geeksforgeeks.org/decision-tree-introduction-example/"
+  utter_faq-decision/types:
+  - text: "https://towardsdatascience.com/clearly-explained-top-2-types-of-decision-trees-chaid-cart-8695e441e73e"
+  utter_faq-decision/chaid:
+  - text: "https://www.analyticsvidhya.com/blog/2021/05/implement-of-decision-tree-using-chaid/"
+  utter_faq-decision/cart:
+  - text: "https://www.datasciencecentral.com/profiles/blogs/introduction-to-classification-regression-trees-cart"
+  utter_faq-decision/derivation:
+  - text: "https://medium.com/deep-math-machine-learning-ai/chapter-4-decision-trees-algorithms-b93975f7a1f1"
 # to handle low confidence answers
   utter_please_rephrase:
   - text: I'm sorry, I didn't quite understand that. Could you rephrase?

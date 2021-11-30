@@ -1,0 +1,5 @@
+templates/*
+utils/*
+app.py
+*.xlsx
+*.csv

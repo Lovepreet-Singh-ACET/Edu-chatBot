@@ -1,0 +1,147 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title> 
+        TestPage for inputs
+    </title> 
+</head> 
+
+<body onbeforeunload=" return 'Are you really want to perform the action?'"> 
+    <h1 style="color: green"> 
+       Automation for Chatbot 
+    </h1> 
+
+    <b>Type inputs below:</b> 
+
+    <div id = "inputdiv">
+    <form action="{{ url_for('save')}}" method="post">
+        <input id = "input1" placeholder="Enter question 1 here">
+        <input id = "input2" placeholder="Enter answer 1 here">
+        <input id = "para1" placeholder="Enter para 1 here">
+        <input id = "para2" placeholder="Enter para 2 here">
+        <input id = "para3" placeholder="Enter para 3 here">
+        <input id = "para4" placeholder="Enter para 4 here">
+        <input id = "para5" placeholder="Enter para 5 here">
+        </div>
+        <br><br><br>
+        <button id = "add_row"> Add Row </button>
+        <button id = "save"> Save </button> 
+    </form>
+    <script type="text/javascript"> 
+    var csv = [];
+    //function to download the input as a csv file 
+    function downloadCSV(csv, filename) {
+    var csvFile;
+    var downloadLink;
+    // CSV file
+    csvFile = new Blob([csv], {type: "text/csv"});
+    // Download link
+    downloadLink = document.createElement("a");
+   // File name
+    downloadLink.download = filename;
+    // Create a link to the file
+    downloadLink.href = window.URL.createObjectURL(csvFile);
+    // Hide download link
+    downloadLink.style.display = "none";
+    // Add the link to DOM
+    document.body.appendChild(downloadLink);
+    // Click download link
+    downloadLink.click();
+}
+
+function exportDataToCSV (){
+
+var data1 = $("#input1").val();
+var data2 = $("#input2").val();
+
+var para1 = $("#para1").val();
+var para2 = $("#para2").val();
+var para3 = $("#para3").val();
+var para4 = $("#para4").val();
+var para5 = $("#para5").val();
+
+var paraArray = [];
+paraArray.push(para1);
+paraArray.push(para2);
+paraArray.push(para3);
+paraArray.push(para4);
+paraArray.push(para5);
+
+for (let i = 0; i < paraArray.length; i++) {
+    var dataArray = [];
+    dataArray.push(data1);
+    dataArray.push(paraArray[i]);
+    dataArray.push(data2);
+    csv.push(dataArray);
+}
+
+
+
+var temp_fname =""
+    if (localStorage.fileName!=undefined) {
+        temp_fname = prompt("Project name: ", localStorage.fileName);
+    } else {
+        temp_fname = prompt("Project name: ", "");
+    }
+    if (temp_fname != null) {
+        filename = temp_fname+".csv";
+        downloadCSV(csv.join("\n"), filename);
+    }
+
+}
+function AddRow (){
+    var data1 = $("#input1").val();
+    var data2 = $("#input2").val();
+
+    var para1 = $("#para1").val();
+    var para2 = $("#para2").val();
+    var para3 = $("#para3").val();
+    var para4 = $("#para4").val();
+    var para5 = $("#para5").val();
+
+
+    var paraArray = [];
+    paraArray.push(para1);
+    paraArray.push(para2);
+    paraArray.push(para3);
+    paraArray.push(para4);
+    paraArray.push(para5);
+
+    for (let i = 0; i < paraArray.length; i++) {
+        var dataArray = [];
+        dataArray.push(data1);
+        dataArray.push(paraArray[i]);
+        dataArray.push(data2);
+        csv.push(dataArray);
+    }
+
+$("#input1").val("");
+$("#input2").val("");
+$("#para1").val("");
+$("#para2").val("");
+$("#para3").val("");
+$("#para4").val("");
+$("#para5").val("");
+
+}
+
+//Save Button 
+$("#save").click(function(){
+exportDataToCSV();
+
+})  
+// Add Row Button
+$("#add_row").click(function(){
+    AddRow();
+})
+        // no closing on accident
+        window.addEventListener('beforeunload', function (e) { 
+            e.preventDefault(); 
+            e.alert("Test");
+            e.returnValue = ''; 
+        });
+    </script> 
+</body> 
+</html> 
