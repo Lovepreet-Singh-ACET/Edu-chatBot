@@ -116,8 +116,8 @@ def create_rasa_files(path, create_files_path, nlu_file_name, domain_file_name, 
     if(DOMAIN_FILE_CREATION):
         file = open('utils/'+create_files_path+domain_file_name+'.yml',"w")
         for intent_name in intents:
-            file.write("    utter_{}:\n".format(intent_name))
-            file.write('    - text: {}\n'.format(answer_map[intent_name][0]))
+            file.write("  utter_{}:\n".format(intent_name))
+            file.write('  - text: {}\n'.format(answer_map[intent_name][0]))
             
         file.write("""session_config:
   session_expiration_time: 60

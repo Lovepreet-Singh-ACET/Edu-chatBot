@@ -37,17 +37,18 @@ def merge_nlu():
     # file = open('utils/'+create_files_path+domain_file_name+'.yml',"w")
     domfile = open('domain.yml',"a+")
     print("--------------")
-    # domfile.seek(-86, 1)
-    # domfile.write("\n")
-    # for i in domfile.readlines():
-    #     print(i)
-    for intent_name in intents:
-        domfile.write("  utter_{}:\n".format(intent_name))
-        domfile.write('  - text:\n')
+
+    with open("utils/domain_29oct.yml", 'r+') as fp:
+        data_to_write = fp.readlines()
+        domfile.writelines(data_to_write)
+
+#     for intent_name in intents:
+#         domfile.write("  utter_{}:\n".format(intent_name))
+#         domfile.write('  - text:\n')
         
-    domfile.write("""session_config:
-session_expiration_time: 60
-carry_over_slots_to_new_session: true""")
+#     domfile.write("""session_config:
+# session_expiration_time: 60
+# carry_over_slots_to_new_session: true""")
 
     domfile.close()
 

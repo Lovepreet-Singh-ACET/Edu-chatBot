@@ -2696,3 +2696,12 @@ nlu:
     - do you know what are the algorithms which can be used to derive decision tree
     - help me in understanding about the algorithms that is used to derive decision tree along with their attribute selection measures
     - decision tree derivation through various algorithms
+
+- intent: faq-new/tell-neural-network
+  examples: |
+    - tell me more details about neural networks
+    - what information can you provide me of neural networks
+    - what do you know about neural networks
+    - i want to know about neural networks in general
+    - help me in understanding neural networks
+    - tell me about neural networks

@@ -1,10 +1,8 @@
-- intent: faq-new/know-fellowship
+- intent: faq-new/tell-neural-network
   examples: |
-    - I want to learn more about fellowships but don't know where to start
-    - I'd like to learn more about fellowships but don't know where to begin
-    - How can I know more about the fellowships?
-- intent: faq-new/get-sabudh
-  examples: |
-    - i want to get into sabudh
-    - i wish to get into sabudh foundation
-    - how to get into sabudh?
+    - tell me more details about neural networks
+    - what information can you provide me of neural networks
+    - what do you know about neural networks
+    - i want to know about neural networks in general
+    - help me in understanding neural networks
+    - tell me about neural networks
