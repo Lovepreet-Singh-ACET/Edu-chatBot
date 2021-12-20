@@ -1367,7 +1367,7 @@ nlu:
 
 - intent: faq-mentor/mentor-help-assignment
   examples: |
-    -can mentor help in solving assignement
+    - can mentor help in solving assignement
     - should I rely on my mentor for solving coursework
     - Can a mentor assist with an assignment?
     - Should I entrust my coursework to my mentor?
