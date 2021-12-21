@@ -1,97 +1,89 @@
-# Edu-Chatbot
+# Edu-Bot
 
-#### To train model 
+## How to Get the Bot running by Using the Github Code
+Firstly clone the repo locally or Download the source code.
 
-rasa train 
+After getting the source code we need to install python and rasa on to system. My recommendation is to download python using miniconda or Anaconda.
 
+>Link for miniconda: https://docs.conda.io/en/latest/miniconda.html
 
-#### To talk to bot in shell
+>Link for Anaconda: https://www.anaconda.com/products/individual
 
-rasa shell
+After installing the python. It is recommended to create a seperate environment for RASA and install the required libraries into it.
 
+Command to create a new Env.
 
+> conda create -n \<Name of Environment\> python=3.6
 
-#### To see bot working locally with UI
+> conda create -n rasa python=3.6
 
+Once the Environment is create we can activate it using
+> conda activte \<name of environment>
 
- 
-rasa run -m models --enable-api --cors "*" 
+> conda activate rasa
 
+After activating the environment we can install rasa by using
+> pip install rasa[full]==2.6
 
-If it gives error port 5005 already in use 
-check with
-1.  docker ps 
-    > if your container is running if yes stop it 
-    > and if no container is running and it is still saying the same.
- 
-2.  rasa run -m models --enable-api --cors "*" -p [ port-number ] 
-    > and also make sure that this port number is also present in index.html in *socketUrl* : [ ip-address ]: [ port-number ]
+Now we are ready with all the required dependencies. Let's see how we can train our model.
 
+### To train model
+We can train our model using below command
+> rasa train
 
-## To run Docker image of chatbot
+### To talk to bot in shell we need to run following two commands in parallel
+    > rasa shell
+    > rasa run actions
+rasa shell will provide us with a command line prompt using which we can have conversation with the bot.
 
-> *you can replace Edu-Chatbot with your bot name*
-
-docker build -t demo-bot. 
-
-docker run -it  -p 5005:5005 demo-bot:latest
-
-
-If it gives an error port 5005 already in use
-
-1.  docker run -it  -p [ port-number]:5005 demo-bot:latest 
-
-This will map your localhost [ port-number ] to 5005 and that 5005 port is used by docker container
-But make sure  that this port number is also present in IDP.html in *socketUrl* : [ localhost ]: [ port-number ]
-#### To run chatbot in shell using docker container
-
-docker run  -it --workdir /app demo-bot bash ./scripts/start_shell.sh
-
-
-#### To stop Docker container
-
-docker stop <container-id>
-
-
-#### To remove docker image
-
-
-docker image rm -f demo-bot:latest
-
-
-# To connect Personal Website to Server using socket io
-
-1. Made an Folder in server
-
-2. Installed rasa (rasa 2.6.0)
+### To see bot working locally with UI
+we need first run the following to commands in parallel.
     
-    pip3 install -U pip
-    pip3 install rasa
+    > rasa run -m models --enable-api --cors "*" 
+    > rasa run actions
+After running the above commands. The next step is to open the <b>index.html</b> file in browser.(index.html file is present with the source code)
+
+
+
+## Running the bot using Docker
+First docker is required to be installed on the system to use it. It can be downloaded by going to the below mentioned link.
+> Link: https://docs.docker.com/engine/install/
+
+Once docker is installed we need to create docker image of the project, it can be done using the below mentioned command.
+> docker build -t \<Name for image> .
+
+> docker build -t edubot .
+
+After creating image using the above command we can check it with the following command
+> docker images
+
+It will list out all available images on the system.
+
+To start docker container with the image bulit in above step we can use below command.
+
+> docker run -it -p 5005:5005 \<name of image to run>
+
+> docker run -it  -p 5005:5005 edubot
+
+If it gives an error port 5005 already in use. Their are two things that we can do
+1. check if some other container is already running with the same port number and stop it
+    > To see list of running container we can use
     
+    > docker ps
+    - after seeing which container is running already we can stop it using
+    > docker stop \<contaner id>
+2. We can change link differnet port number with the docker container and update the same port number in the index.html file. ( *socketUrl* : [ localhost ]: [ port-number ] )
+    > docker run -it  -p [ port-number ]:5005 edubot
+    - This will map your localhost [ port-number ] to 5005 and that 5005 port is used by docker container
 
-3. git pull from repo to get the latest code
-
-4.  rasa train 
-
-5. Open html file where you embedded the script from [here](https://github.com/botfront/rasa-webchat)
-    ( any html file that can be present locally can be used just make sure
-        1. In socketUrl : [ ip-address]:5005 of server )
-
-6. Make sure the port you are mentioning is open  ( from Server UI you can do this )
-    ( In our case we had to manually to open port *5005 from Azure server* because rasa by default runs on port 5005 )
-7.  rasa run -m models --enable-api --cors "*"  
-    *or*
-8.  docker build -t demo-bot . 
-
-8.a  docker run -it  -p 5005:5005 demo-bot:latest  
-
-# To stop the Rasa Server connected via socket io
-
-1.  lsof -i:5005  ( to see which service is running on port 5005 and what is the PID)
-
-2.  
-    kill $(lsof -t -i:5005)
-
-    or
-
-    kill -9 $(lsof -t -i:5005)
+### Some Useful Commands Realted to Docker
+- To list running containers
+    > docker ps
+- To list all containers(running and stoped both)
+    > docker ps -a
+- To stop Docker container
+    > docker stop \<container-id>
+- To see available Images
+    > docker images
+- To remove a docker image
+    > docker image rm -f \<image name>
