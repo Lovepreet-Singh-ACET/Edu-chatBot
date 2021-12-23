@@ -9,15 +9,15 @@ After getting the source code we need to install python and rasa on to system. M
 
 >Link for Anaconda: https://www.anaconda.com/products/individual
 
-After installing the python. It is recommended to create a seperate environment for RASA and install the required libraries into it.
+After installing the python, it is recommended to create a seperate environment for RASA and install the required libraries into it.( Sometimes the libraries versions may differ for differnet packeges which might cause some dependency issues while using rasa )
 
 Command to create a new Env.
 
-> conda create -n \<Name of Environment\> python=3.6
+> conda create -n \<Name of Environment> python=3.6
 
 > conda create -n rasa python=3.6
 
-Once the Environment is create we can activate it using
+Once the environment is created we can activate it using
 > conda activte \<name of environment>
 
 > conda activate rasa
@@ -46,7 +46,7 @@ After running the above commands. The next step is to open the <b>index.html</b>
 
 
 ## Running the bot using Docker
-First docker is required to be installed on the system to use it. It can be downloaded by going to the below mentioned link.
+First docker is required to be installed on the system to use it. It can be downloaded using the given link mentioned below.
 > Link: https://docs.docker.com/engine/install/
 
 Once docker is installed we need to create docker image of the project, it can be done using the below mentioned command.
@@ -65,10 +65,9 @@ To start docker container with the image bulit in above step we can use below co
 
 > docker run -it  -p 5005:5005 edubot
 
-If it gives an error port 5005 already in use. Their are two things that we can do
+If it gives an error port 5005 already in use, their are two things that we can do
 1. check if some other container is already running with the same port number and stop it
-    > To see list of running container we can use
-    
+    - To see list of running container we can use
     > docker ps
     - after seeing which container is running already we can stop it using
     > docker stop \<contaner id>
