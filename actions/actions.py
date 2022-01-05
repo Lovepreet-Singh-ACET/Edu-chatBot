@@ -85,7 +85,7 @@ class FaqEdu(Action):
         #         Ans            TEXT     NOT NULL);''')
         # print ("Table created successfully")
         # conn.close()
-        database = "pythonsqlite.db"
+        database = "./actions/database/pythonsqlite.db"
         sql_create_projects_table = """ CREATE TABLE IF NOT EXISTS Qdata (Ques   TEXT    NOT NULL,
                                                                          Ans    TEXT    NOT NULL); 
                                     """
